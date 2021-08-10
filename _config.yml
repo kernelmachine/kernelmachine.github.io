@@ -60,11 +60,11 @@ plugins:
 author:
   name   : " "
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "http://ipa-reader.xyz/?text=%CB%8Cs%CA%8Ct%CA%83%C9%AAn%20g%CA%8A%C9%B9%CA%8A%C9%B9%CA%8Cng%CA%8Cn"
+  bio    : "ˌsʌtʃɪn gʊɹʊɹʌngʌn"
   links:
     - label: "Pronunciation"
       icon: "fas fa-volume-up"
-      url: "http://ipa-reader.xyz/?text=%CB%8Cs%CA%8Ct%CA%83%C9%AAn%20g%CA%8A%C9%B9%CA%8A%C9%B9%C9%91ng%C9%A4n"
+      url: "http://ipa-reader.xyz/?text=%CB%8Cs%CA%8Ct%CA%83%C9%AAn%20g%CA%8A%C9%B9%CA%8A%C9%B9%CA%8Cng%CA%8Cn"
     - label: "Prounouns"
       icon: "fas fa-user-alt"
       url: "https://pronoun.is/he"
