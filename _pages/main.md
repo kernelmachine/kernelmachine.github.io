@@ -4,7 +4,7 @@ layout: single
 permalink: /
 ---
 
-I'm a 2nd year PhD student in Computer Science at the [University of Washington](https://www.cs.washington.edu/), and a visiting researcher at [Facebook AI Research](https://ai.facebook.com/), in the Seattle NLP group. I'm advised by [Noah Smith](https://nasmith.github.io/) and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz). I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), and a data scientist and software engineer in startups in Boston and Seattle. In a previous world, I studied [neuroscience](#neuroscience)!
+I'm a 2nd year PhD student in Computer Science at the [University of Washington](https://www.cs.washington.edu/), and a visiting researcher at [Facebook AI Research](https://ai.facebook.com/), in the Seattle NLP group. I'm advised by [Noah Smith](https://nasmith.github.io/) and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz). I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), and a data scientist and software engineer in startups in Boston and Seattle. And in another world, I did research in [neuroscience](#neuroscience)!
 
 
 I do research in natural language processing and machine learning. My main research interests are:
