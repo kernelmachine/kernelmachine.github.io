@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Suchin Gururangan"
+  name   : " "
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "NLP PhD student at the University of Washington; Visiting Researcher at Facebook AI"
+  bio    : "NLP PhD student at the University of Washington \n Visiting Researcher at Facebook AI"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -68,7 +68,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kernelmachine"
-
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:sg01@cs.washington.edu"
+    - label: "Semantic Scholar"
+      icon: "fas fa-book-open"
+      url: "https://www.semanticscholar.org/author/Suchin-Gururangan/40895369"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=CJIKhNIAAAAJ&hl=en"
 
 defaults:
   # _posts
