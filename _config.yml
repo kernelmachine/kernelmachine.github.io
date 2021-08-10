@@ -60,7 +60,7 @@ plugins:
 author:
   name   : " "
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "NLP PhD student at the University of Washington \n Visiting Researcher at Facebook AI"
+  bio    : "NLP Researcher"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
