@@ -60,7 +60,7 @@ plugins:
 author:
   name   : " "
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "ˌsʌtʃɪn gʊɹʊɹʌngʌn"
+  bio    : "http://ipa-reader.xyz/?text=%CB%8Cs%CA%8Ct%CA%83%C9%AAn%20g%CA%8A%C9%B9%CA%8A%C9%B9%CA%8Cng%CA%8Cn"
   links:
     - label: "Pronunciation"
       icon: "fas fa-volume-up"
