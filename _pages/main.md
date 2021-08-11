@@ -14,7 +14,7 @@ I do research in natural language processing and machine learning. My main resea
  * <i class="fas fa-wind"></i> Adaptive and rapidly customizable [**language models**](#language-models)
  * <i class="fas fa-shield-alt"></i>  [**Ethics and safety**](#safety-and-ethics) of language models
  * <i class="fas fa-leaf"></i> [**Green AI**](#efficiency)
- * <i class="fas fa-sort-amount-down"></i> [**Improving Model Evaluation**](#evaluation)
+ * <i class="fas fa-sort-amount-down"></i> Improving [**Model Evaluation**](#evaluation)
 
 ## Language Models
 
