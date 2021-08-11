@@ -4,16 +4,17 @@ layout: single
 permalink: /
 ---
 
-I'm a 2nd year PhD student in Computer Science at the [University of Washington](https://www.cs.washington.edu/), and a visiting researcher at [Facebook AI Research](https://ai.facebook.com/), in the Seattle NLP group. I'm advised by [Noah Smith](https://nasmith.github.io/) and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz). I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), and a data scientist and software engineer in startups in Boston and Seattle. And in another world, I did research in [neuroscience](#neuroscience)!
+I'm a 2nd year PhD student in Computer Science at the [University of Washington](https://www.cs.washington.edu/), and a visiting researcher at [Facebook AI Research](https://ai.facebook.com/). I'm advised by [Noah Smith](https://nasmith.github.io/) and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz).
+
+I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), and a data scientist and software engineer in startups in Boston and Seattle. And in another world, I did research in [neuroscience](#neuroscience)!
 
 
 I do research in natural language processing and machine learning. My main research interests are:
 
- * Adaptive and rapidly customizable [language models](#language-models)
- * [Ethical and safety concerns](#safety-and-ethics) in language models
- * [Green AI](#efficiency)
- * [Evaluation](#evaluation)
-
+ * <i class="fas fa-wind"></i> Adaptive and rapidly customizable [**language models**](#language-models)
+ * <i class="fas fa-shield-alt"></i>  [**Ethics and safety**](#safety-and-ethics) of language models
+ * <i class="fas fa-leaf"></i> [**Green AI**](#efficiency)
+ * <i class="fas fa-sort-amount-down"></i> [**Improving Model Evaluation**](#evaluation)
 
 ## Language Models
 
