@@ -60,11 +60,11 @@ plugins:
 author:
   name   : " "
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "ˌsʌtʃɪn gʊɹʊɹʌngʌn"
+  bio    : "sʌtʃɪn gʊɹʊɹʌngʊn"
   links:
     - label: "Pronunciation"
       icon: "fas fa-volume-up"
-      url: "http://ipa-reader.xyz/?text=%CB%8Cs%CA%8Ct%CA%83%C9%AAn%20g%CA%8A%C9%B9%CA%8A%C9%B9%CA%8Cng%CA%8Cn"
+      url: "http://ipa-reader.xyz/?text=s%CA%8Ct%CA%83%C9%AAn%20g%CA%8A%C9%B9%CA%8A%C9%B9%CA%8Cng%CA%8An&voice=Raveena"
     - label: "Prounouns"
       icon: "fas fa-user-alt"
       url: "https://pronoun.is/he"
