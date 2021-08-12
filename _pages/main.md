@@ -12,7 +12,7 @@ I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), 
 I do research in natural language processing and machine learning. My main research interests are:
 
  * <i class="fas fa-wind"></i> Adaptive and rapidly customizable [**language models**](#language-models)
- * <i class="fas fa-shield-alt"></i>  [**Safety and Ethics**](#safety-and-ethics) of language models
+ * <i class="fas fa-shield-alt"></i>  [**Safety and ethics**](#safety-and-ethics) of language models
  * <i class="fas fa-leaf"></i> [**Green AI**](#efficiency)
  * <i class="fas fa-sort-amount-down"></i> Improving [**Model Evaluation**](#evaluation)
 
