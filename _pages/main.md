@@ -17,10 +17,9 @@ I do research in natural language processing and machine learning. My main resea
  * <i class="fas fa-sort-amount-down"></i> Improving [**Model Evaluation**](#evaluation)
 
 ## Language Models
+💫 **New paper** 💫<br>*DEMix Layers: Disentangling Domains for Modular Language Modeling*<br><sup> In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sup>
 
-*DEMix Layers: Disentangling Domains for Modular Language Modeling*<br><sup>In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sup>
-
-*Don't Stop Pretraining: Adapt Language Models to Domains and Tasks*<br><sup>ACL 2020 // [[paper](https://aclanthology.org/2020.acl-main.740/)] [[code](https://github.com/allenai/dont-stop-pretraining)] // Runner up for Best Paper Award 🔥</sup>
+*Don't Stop Pretraining: Adapt Language Models to Domains and Tasks*<br><sup>ACL 2020 // [[paper](https://aclanthology.org/2020.acl-main.740/)] [[code](https://github.com/allenai/dont-stop-pretraining)]<br>**Runner up for Best Paper Award** 🔥</sup>
 
 ## Safety and Ethics
 
@@ -45,7 +44,8 @@ I do research in natural language processing and machine learning. My main resea
 <br><sup>NAACL 2018 // [[paper](https://aclanthology.org/N18-2017/)]</sup>
 
 *All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text*
-<br><sup>ACL 2021 // [[paper](https://aclanthology.org/2021.acl-long.565/)] // Outstanding Paper Award 🔥</sup>
+<br><sup>ACL 2021 // [[paper](https://aclanthology.org/2021.acl-long.565/)]<br>
+**Outstanding Paper Award** 🔥</sup>
 
 ## Neuroscience
 
