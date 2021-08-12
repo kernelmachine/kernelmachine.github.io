@@ -12,14 +12,15 @@ I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), 
 I do research in natural language processing and machine learning. My main research interests are:
 
  * <i class="fas fa-wind"></i> Adaptive and rapidly customizable [**language models**](#language-models)
- * <i class="fas fa-shield-alt"></i>  [**Ethics and safety**](#safety-and-ethics) of language models
+ * <i class="fas fa-shield-alt"></i>  [**Safety and Ethics**](#safety-and-ethics) of language models
  * <i class="fas fa-leaf"></i> [**Green AI**](#efficiency)
  * <i class="fas fa-sort-amount-down"></i> Improving [**Model Evaluation**](#evaluation)
 
 ## Language Models
 
-*Don't Stop Pretraining: Adapt Language Models to Domains and Tasks*<br><sup>ACL 2020 // [[paper](https://aclanthology.org/2020.acl-main.740/)] [[code](https://github.com/allenai/dont-stop-pretraining)] // Runner up for Best Paper Award 🔥</sup>
+*DEMix Layers: Disentangling Domains for Modular Language Modeling*<br><sup>In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sup>
 
+*Don't Stop Pretraining: Adapt Language Models to Domains and Tasks*<br><sup>ACL 2020 // [[paper](https://aclanthology.org/2020.acl-main.740/)] [[code](https://github.com/allenai/dont-stop-pretraining)] // Runner up for Best Paper Award 🔥</sup>
 
 ## Safety and Ethics
 
