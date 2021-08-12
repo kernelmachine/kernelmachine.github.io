@@ -19,7 +19,7 @@ I do research in natural language processing and machine learning. My main resea
 ## Language Models
 💫 **New paper** 💫<br>*DEMix Layers: Disentangling Domains for Modular Language Modeling*<br><sup> In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sup>
 
-*Don't Stop Pretraining: Adapt Language Models to Domains and Tasks*<br><sup>ACL 2020 // [[paper](https://aclanthology.org/2020.acl-main.740/)] [[code](https://github.com/allenai/dont-stop-pretraining)]<br>**Runner up for Best Paper Award** 🔥</sup>
+*Don't Stop Pretraining: Adapt Language Models to Domains and Tasks*<br><sup>ACL 2020 // [[paper](https://aclanthology.org/2020.acl-main.740/)] [[code](https://github.com/allenai/dont-stop-pretraining)]<br>**Honorable Mention for Best Overall Paper** 🔥</sup>
 
 ## Safety and Ethics
 
