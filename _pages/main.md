@@ -32,7 +32,7 @@ I do research in natural language processing and machine learning. My main resea
 <br><sub>EMNLP Findings 2020 //  [[paper](https://aclanthology.org/2020.findings-emnlp.301/)] [[code](https://github.com/allenai/real-toxicity-prompts)]</sub>
 
 *Detoxifying Language Models Risks Marginalizing Minority Voices*
-<br><sub>with [Albert Xu](https://albertxu.xyz/), [Eshaan Pathak](https://www.linkedin.com/in/eshaan-pathak/), [Eric Wallace](https://www.ericswallace.com/), [Maarten Sap](https://homes.cs.washington.edu/~msap/), and Dan Klein</sub>
+<br><sub>with [Albert Xu](https://albertxu.xyz/), [Eshaan Pathak](https://www.linkedin.com/in/eshaan-pathak/), [Eric Wallace](https://www.ericswallace.com/), [Maarten Sap](https://homes.cs.washington.edu/~msap/), and [Dan Klein](https://people.eecs.berkeley.edu/~klein/)</sub>
 <br><sub>NAACL 2021 // [[paper](https://aclanthology.org/2021.naacl-main.190/)]</sub>
 
 ## Green AI
