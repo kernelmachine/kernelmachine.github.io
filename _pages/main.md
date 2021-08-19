@@ -43,7 +43,7 @@ I do research in natural language processing and machine learning. My main resea
 
 
 *Show Your Work: Improved Reporting of Experimental Results*
-<br><sub>with Jesse Dodge, [Roy Schwartz](https://schwartz-lab-huji.github.io/), [Dallas Card](https://web.stanford.edu/~dcard/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
+<br><sub>with [Jesse Dodge](http://www.cs.cmu.edu/~jessed/), [Roy Schwartz](https://schwartz-lab-huji.github.io/), [Dallas Card](https://web.stanford.edu/~dcard/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub>EMNLP 2019 // [[paper](https://aclanthology.org/D19-1224/)] [[code](https://github.com/allenai/allentune)]</sub>
 
 ## Evaluation
