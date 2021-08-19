@@ -30,6 +30,7 @@ I do research in natural language processing and machine learning. My main resea
 *RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models*
 <br><sub>with [Sam Gehman](https://github.com/thesamuel), [Maarten Sap](https://homes.cs.washington.edu/~msap/), [Yejin Choi](https://homes.cs.washington.edu/~yejin/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub>EMNLP Findings 2020 //  [[paper](https://aclanthology.org/2020.findings-emnlp.301/)] [[code](https://github.com/allenai/real-toxicity-prompts)]</sub>
+<br><sub>Press: [[Wired](https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker/)] [[IEEE](https://spectrum.ieee.org/open-ais-powerful-text-generating-tool-is-ready-for-business)] [[GeekWire](https://www.geekwire.com/2021/curse-neural-toxicity-ai2-uw-researchers-help-computers-watch-language/)][[Nature](https://www.nature.com/articles/d41586-021-00530-0)]</sub>
 
 *Detoxifying Language Models Risks Marginalizing Minority Voices*
 <br><sub>with [Albert Xu](https://albertxu.xyz/), [Eshaan Pathak](https://www.linkedin.com/in/eshaan-pathak/), [Eric Wallace](https://www.ericswallace.com/), [Maarten Sap](https://homes.cs.washington.edu/~msap/), and [Dan Klein](https://people.eecs.berkeley.edu/~klein/)</sub>
@@ -45,6 +46,8 @@ I do research in natural language processing and machine learning. My main resea
 *Show Your Work: Improved Reporting of Experimental Results*
 <br><sub>with [Jesse Dodge](http://www.cs.cmu.edu/~jessed/), [Roy Schwartz](https://schwartz-lab-huji.github.io/), [Dallas Card](https://web.stanford.edu/~dcard/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub>EMNLP 2019 // [[paper](https://aclanthology.org/D19-1224/)] [[code](https://github.com/allenai/allentune)]</sub>
+<br><sub>Press: [[Wired](https://www.wired.com/story/artificial-intelligence-confronts-reproducibility-crisis/)]</sub>
+<br><sub>Basis for the [Reproducibility Checklist](https://2020.emnlp.org/call-for-papers) of major NLP conferences</sub>
 
 ## Evaluation
 
