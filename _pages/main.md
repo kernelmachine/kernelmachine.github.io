@@ -22,7 +22,7 @@ I do research in natural language processing and machine learning. My main resea
 <br><sub> In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sub>
 
 *Don't Stop Pretraining: Adapt Language Models to Domains and Tasks*
-<br><sub>with [Ana Marasovic](https://www.anamarasovic.com/), [Swabha Swayamdipta](https://swabhs.com/), [Kyle Lo](https://kyleclo.github.io/), [Iz Beltagy](https://beltagy.net/), [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), and [Noah A. Smith](https://nasmith.github.io/) </sub>
+<br><sub>with [Ana Marasović](https://www.anamarasovic.com/), [Swabha Swayamdipta](https://swabhs.com/), [Kyle Lo](https://kyleclo.github.io/), [Iz Beltagy](https://beltagy.net/), [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), and [Noah A. Smith](https://nasmith.github.io/) </sub>
 <br><sub>ACL 2020 // [[paper](https://aclanthology.org/2020.acl-main.740/)] [[code](https://github.com/allenai/dont-stop-pretraining)]</sub>
 <br><sub>🔥 **Honorable Mention for Best Overall Paper** 🔥</sub>
 ## Safety and Ethics
