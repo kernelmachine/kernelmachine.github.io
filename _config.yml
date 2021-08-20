@@ -84,10 +84,6 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=CJIKhNIAAAAJ&hl=en"
-    - label: "Seattle, WA, USA"
-      icon: "fas fa-tree"
-      url: "https://en.wikipedia.org/wiki/Seattle"
-
 defaults:
   # _posts
   - scope:
