@@ -62,8 +62,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "sʌtʃɪn gʊɹʊɹʌngʊn"
   links:
-    - label: "Seattle, WA"
-      icon: "fas fa-tree"
+
     - label: "Pronunciation"
       icon: "fas fa-volume-up"
       url: "http://ipa-reader.xyz/?text=s%CA%8Ct%CA%83%C9%AAn%20g%CA%8A%C9%B9%CA%8A%C9%B9%CA%8Cng%CA%8An&voice=Raveena"
@@ -85,6 +84,9 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=CJIKhNIAAAAJ&hl=en"
+    - label: "Seattle, WA, USA"
+      icon: "fas fa-tree"
+      url: "https://en.wikipedia.org/wiki/Seattle"
 
 defaults:
   # _posts
