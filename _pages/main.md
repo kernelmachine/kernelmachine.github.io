@@ -13,7 +13,7 @@ I do research in natural language processing and machine learning. My main resea
 
  * <span style="color:#add8e6"><i class="fas fa-wind"></i></span> Adaptive and rapidly customizable [**language models**](#adaptive-language-models)
  * <span style="color:#daa520"><i class="fas fa-shield-alt"></i></span>  [**Safety and ethics**](#safety-and-ethics) of language models
- * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> [**Green NLP**](#Green-NLP)
+ * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> [**Green NLP**](#green-nlp)
  * <span style="color:#ff0088"><i class="fas fa-sort-amount-down"></i></span> Improving [**Model Evaluation**](#evaluation)
 
 ## Adaptive Language Models
@@ -25,6 +25,7 @@ I do research in natural language processing and machine learning. My main resea
 <br><sub>with [Ana Marasović](https://www.anamarasovic.com/), [Swabha Swayamdipta](https://swabhs.com/), [Kyle Lo](https://kyleclo.github.io/), [Iz Beltagy](https://beltagy.net/), [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), and [Noah A. Smith](https://nasmith.github.io/) </sub>
 <br><sub>ACL 2020 // [[paper](https://aclanthology.org/2020.acl-main.740/)] [[code](https://github.com/allenai/dont-stop-pretraining)]</sub>
 <br><sub>🔥 **Honorable Mention for Best Overall Paper** 🔥</sub>
+
 ## Safety and Ethics
 
 *RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models*
