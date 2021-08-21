@@ -11,12 +11,12 @@ I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), 
 
 I do research in natural language processing and machine learning. My main research interests are:
 
- * <span style="color:#add8e6"><i class="fas fa-wind"></i></span> Adaptive and rapidly customizable [**language models**](#language-models)
+ * <span style="color:#add8e6"><i class="fas fa-wind"></i></span> Adaptive and rapidly customizable [**language models**](#adaptive-language-models)
  * <span style="color:#daa520"><i class="fas fa-shield-alt"></i></span>  [**Safety and ethics**](#safety-and-ethics) of language models
- * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> [**Green AI**](#efficiency)
+ * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> [**Green NLP**](#Green-NLP)
  * <span style="color:#ff0088"><i class="fas fa-sort-amount-down"></i></span> Improving [**Model Evaluation**](#evaluation)
 
-## Language Models
+## Adaptive Language Models
 💫 **New paper** 💫<br>*DEMix Layers: Disentangling Domains for Modular Language Modeling*
 <br><sub>with [Mike Lewis](https://twitter.com/ml_perception?lang=en), [Ari Holtzman](https://ari-holtzman.github.io/), [Noah A. Smith](https://nasmith.github.io/), and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
 <br><sub> In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sub>
@@ -36,7 +36,7 @@ I do research in natural language processing and machine learning. My main resea
 <br><sub>with [Albert Xu](https://albertxu.xyz/), [Eshaan Pathak](https://www.linkedin.com/in/eshaan-pathak/), [Eric Wallace](https://www.ericswallace.com/), [Maarten Sap](https://homes.cs.washington.edu/~msap/), and [Dan Klein](https://people.eecs.berkeley.edu/~klein/)</sub>
 <br><sub>NAACL 2021 // [[paper](https://aclanthology.org/2021.naacl-main.190/)]</sub>
 
-## Green AI
+## Green NLP
 
 *Variational Pretraining for Semi-supervised Text Classification*
 <br><sub>with [Tam Dang](https://tamdang.io/), [Dallas Card](https://web.stanford.edu/~dcard/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
