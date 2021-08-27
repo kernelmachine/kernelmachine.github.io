@@ -41,7 +41,7 @@ I do research in natural language processing and machine learning. My main resea
 
 💫 **New paper** 💫<br>*Expected Validation Performance and Estimation of a Random Variable's Maximum*
 <br><sub>with [Jesse Dodge](http://www.cs.cmu.edu/~jessed/), [Roy Schwartz](https://schwartz-lab-huji.github.io/), [Dallas Card](https://web.stanford.edu/~dcard/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
-<br><sub>Paper and code on it's way!</sub>
+<br><sub>EMNLP Findings 2021 // Paper and code on it's way!</sub>
 
 
 *Variational Pretraining for Semi-supervised Text Classification*
