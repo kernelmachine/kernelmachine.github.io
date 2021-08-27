@@ -39,6 +39,11 @@ I do research in natural language processing and machine learning. My main resea
 
 ## Green NLP
 
+💫 **New paper** 💫<br>**Expected Validation Performance and Estimation of a Random Variable's Maximum**
+<br><sub>with [Jesse Dodge](http://www.cs.cmu.edu/~jessed/), [Roy Schwartz](https://schwartz-lab-huji.github.io/), [Dallas Card](https://web.stanford.edu/~dcard/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
+<br><sub>Paper and code on it's way!</sub>
+
+
 *Variational Pretraining for Semi-supervised Text Classification*
 <br><sub>with [Tam Dang](https://tamdang.io/), [Dallas Card](https://web.stanford.edu/~dcard/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub>ACL 2019 // [[paper](https://aclanthology.org/P19-1590/)] [[code](https://github.com/allenai/vampire)]</sub>
