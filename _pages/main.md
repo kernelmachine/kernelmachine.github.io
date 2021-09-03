@@ -30,7 +30,7 @@ I do research in natural language processing and machine learning. My main resea
 
 *RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models*
 <br><sub>with [Sam Gehman](https://github.com/thesamuel), [Maarten Sap](https://homes.cs.washington.edu/~msap/), [Yejin Choi](https://homes.cs.washington.edu/~yejin/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
-<br><sub>EMNLP Findings 2020 //  [[paper](https://aclanthology.org/2020.findings-emnlp.301/)] [[code](https://github.com/allenai/real-toxicity-prompts)]</sub>
+<br><sub>EMNLP Findings 2020 //  [[paper](https://aclanthology.org/2020.findings-emnlp.301/)] [[code](https://github.com/allenai/real-toxicity-prompts)] [[demo](https://toxicdegeneration.allenai.org/)]</sub>
 <br><sub>Press: [[Wired](https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker/)] [[IEEE](https://spectrum.ieee.org/open-ais-powerful-text-generating-tool-is-ready-for-business)] [[GeekWire](https://www.geekwire.com/2021/curse-neural-toxicity-ai2-uw-researchers-help-computers-watch-language/)][[Nature](https://www.nature.com/articles/d41586-021-00530-0)]</sub>
 
 *Detoxifying Language Models Risks Marginalizing Minority Voices*
