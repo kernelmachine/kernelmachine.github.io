@@ -8,10 +8,15 @@ Here are books I'm currently reading, and mini reviews of ones I've just finishe
 
 ## **Currently Reading**
 
-* [*Geek Heresy*](https://geekheresy.org/)
-* [*The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness*](https://www.amazon.com/Soul-Octopus-Surprising-Exploration-Consciousness/dp/1451697724)
+* [*The Idiot*](https://en.wikipedia.org/wiki/The_Idiot)
 
 ## **Finished**
+
+### * [*The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness*](https://www.amazon.com/Soul-Octopus-Surprising-Exploration-Consciousness/dp/1451697724)
+*by Sy Montgomery*
+<br><span style="color:#daa520"><i class="fas fa-star"></i><i class="fas fa-star"></i><span>
+
+*Soul of an Octopus* had the potential to be really interesting look at the biology of the octopus, but was disappointing. The work starts out with a description of how different the octopus is from most creatures, for example their independent central nervous systems in their tentacles, their incredible social intelligence, and their elastic bodies. This was super captivating. However, the story quickly devolves into accounts of repetitive experiences the author had with octopuses, and the authors own experience, for example, scuba diving. These were much less interesting. I do value the overall position of the work though and its potential to improve our perspective towards (non-mammalian) animals, and in effect, reduce our consumption of them. I think that this message would have been better served as a long form article or feature. The author's [interview](https://www.nytimes.com/2021/07/13/podcasts/transcript-ezra-klein-interviews-sy-montgomery.html) on the Ezra Klein Show is a better alternative to this book, in my opinion.
 
 ### [*Pachinko*](https://www.minjinlee.com/book/pachinko/)
 *by Min Jin Lee*
