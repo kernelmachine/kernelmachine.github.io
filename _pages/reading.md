@@ -1,7 +1,7 @@
 ---
-title: "Books"
+title: "Reading"
 layout: single
-permalink: /books/
+permalink: /reading/
 ---
 
 Here are books I'm currently reading, and mini reviews of ones I've just finished.
