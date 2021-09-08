@@ -15,3 +15,5 @@ I do research in natural language processing and machine learning. My main resea
  * <span style="color:#daa520"><i class="fas fa-shield-alt"></i></span>  [**Safety and ethics**](https://suchin.io/publications/#safety-and-ethics) of language models
  * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> [**Green NLP**](https://suchin.io/publications/#green-nlp)
  * <span style="color:#ff0088"><i class="fas fa-sort-amount-down"></i></span> Improving [**Model Evaluation**](https://suchin.io/publications/#evaluation)
+
+Check out my [publications](https://suchin.io/publications) to learn more. 
