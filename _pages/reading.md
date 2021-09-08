@@ -12,7 +12,7 @@ Here are books I'm currently reading, and mini reviews of ones I've just finishe
 
 ## **Finished**
 
-### * [*The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness*](https://www.amazon.com/Soul-Octopus-Surprising-Exploration-Consciousness/dp/1451697724)
+### [*The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness*](https://www.amazon.com/Soul-Octopus-Surprising-Exploration-Consciousness/dp/1451697724)
 *by Sy Montgomery*
 <br><span style="color:#daa520"><i class="fas fa-star"></i><i class="fas fa-star"></i><span>
 
