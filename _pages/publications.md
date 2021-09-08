@@ -1,3 +1,8 @@
+---
+title: "Publications!"
+layout: single
+permalink: /publications/
+---
 
 ## Adaptive Language Models
 💫 **New paper** 💫<br>*DEMix Layers: Disentangling Domains for Modular Language Modeling*
@@ -61,4 +66,3 @@
 *Emergent coordination underlying learning to reach to grasp with a brain-machine interface*
 <br><sub> with many authors 🙂</sub>
 <br><sub>Journal of Neurophys 2019 // [[paper](https://pubmed.ncbi.nlm.nih.gov/29357477)]</sub>
-s
