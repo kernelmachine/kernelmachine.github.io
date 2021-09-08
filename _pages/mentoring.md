@@ -1,7 +1,7 @@
 ---
 title: "Mentoring"
 layout: single
-permalink: /mentoring
+permalink: /mentoring/
 ---
 
 In general, please reach out if you have questions about my research, UW or UWNLP, getting a masters or PhD in NLP, or doing research in industry. Happy to help in any way that I can!
