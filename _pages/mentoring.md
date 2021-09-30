@@ -26,7 +26,7 @@ If I am too busy for new collaborations, I will try to connect you with other fo
 <br><sup>Currently a research engineer at Facebook AI Research.</sup>
 
 *[Samuel Gehman](https://github.com/thesamuel)* (M.S. 2020)
-<br><sup>Currently a research engineer at Apple.</sup>
+<br><sup>Currently a research engineer at Stripe.</sup>
 
 *[Tam Dang](https://tamdang.io/)* (M.S. 2019)
 <br><sup>Currently a research engineer at Xevo.</sup>
