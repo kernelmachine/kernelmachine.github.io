@@ -5,7 +5,12 @@ permalink: /publications/
 ---
 
 ## Adaptive Language Models
-💫 **New paper** 💫<br>*DEMix Layers: Disentangling Domains for Modular Language Modeling*
+
+💫 **New paper** 💫<br>*Time Waits for No One! Analysis and Challenges of Temporal Misalignment*
+<br><sub>with [Kelvin Luu](https://twitter.com/kel__lu), [Daniel Khashabi](https://danielkhashabi.com/), [Karishma Mandyam](https://kmandyam.github.io/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
+<br><sub> In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[code](https://github.com/Kel-Lu/time-waits-for-no-one)]</sub>
+
+*DEMix Layers: Disentangling Domains for Modular Language Modeling*
 <br><sub>with [Mike Lewis](https://twitter.com/ml_perception?lang=en), [Ari Holtzman](https://ari-holtzman.github.io/), [Noah A. Smith](https://nasmith.github.io/), and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
 <br><sub> In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sub>
 
