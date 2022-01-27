@@ -6,7 +6,7 @@ permalink: /publications/
 
 ## Adaptive Language Models
 
-💫 **New paper** 💫<br>*Time Waits for No One! Analysis and Challenges of Temporal Misalignment*
+*Time Waits for No One! Analysis and Challenges of Temporal Misalignment*
 <br><sub>[Kelvin Luu](https://twitter.com/kel__lu), [Daniel Khashabi](https://danielkhashabi.com/), **Suchin Gururangan**, [Karishma Mandyam](https://kmandyam.github.io/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub> In submission // [[paper](https://arxiv.org/abs/2111.07408)] [[code](https://github.com/Kel-Lu/time-waits-for-no-one)]</sub>
 
@@ -21,6 +21,10 @@ permalink: /publications/
 
 ## Safety and Ethics
 
+💫 **New paper** 💫<br>*Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection*
+<br><sub>**Suchin Gururangan**, [Dallas Card](https://dallascard.github.io/), [Sarah K. Dreier](https://www.skdreier.com/), [Emily K. Gade](https://emilykgade.com/), Leroy Wang, [Blarry Wang](https://blarry.me/),[Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz), and [Noah A. Smith](https://nasmith.github.io/)</sub>
+<br><sub> In submission // [[paper](https://arxiv.org/abs/2201.10474)] [[code](https://github.com/kernelmachine/quality-filter)] </sub>
+
 *RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models*
 <br><sub> [Sam Gehman](https://github.com/thesamuel), **Suchin Gururangan**, [Maarten Sap](https://homes.cs.washington.edu/~msap/), [Yejin Choi](https://homes.cs.washington.edu/~yejin/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub>EMNLP Findings 2020 //  [[paper](https://aclanthology.org/2020.findings-emnlp.301/)] [[code](https://github.com/allenai/real-toxicity-prompts)] [[demo](https://toxicdegeneration.allenai.org/)]</sub>
@@ -32,7 +36,7 @@ permalink: /publications/
 
 ## Green NLP
 
-💫 **New paper** 💫<br>*Expected Validation Performance and Estimation of a Random Variable's Maximum*
+<br>*Expected Validation Performance and Estimation of a Random Variable's Maximum*
 <br><sub>[Jesse Dodge](http://www.cs.cmu.edu/~jessed/), **Suchin Gururangan**, [Roy Schwartz](https://schwartz-lab-huji.github.io/), [Dallas Card](https://web.stanford.edu/~dcard/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub>EMNLP Findings 2021 // [[paper](https://arxiv.org/pdf/2110.00613.pdf)]</sub>
 
