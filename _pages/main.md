@@ -21,4 +21,4 @@ Check out my [publications](https://suchin.io/publications) to learn more.
 ## Announcements
 
 * Our new preprint, ["Whose Language Counts As High Quality?"](https://arxiv.org/abs/2201.10474), just dropped!
-* I'll be giving a talk at IBM Research Zurich in early March!
+* I'll be giving a talk at IBM Research Zurich in early March.
