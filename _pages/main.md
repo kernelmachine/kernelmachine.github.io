@@ -20,5 +20,6 @@ Check out my [publications](https://suchin.io/publications) to learn more.
 
 ## Announcements
 
+* In April, I'll be giving a guest lecture in the **Data Processing + Values** course at UW on our [quality filtering](https://arxiv.org/abs/2201.10474) paper.
 * Our new preprint, ["Whose Language Counts As High Quality?"](https://arxiv.org/abs/2201.10474), just dropped!
 * I'll be giving a talk at IBM Research Zurich in early March.
