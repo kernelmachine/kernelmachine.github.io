@@ -20,8 +20,8 @@ If you don't have such experience yet, there are [lots](https://huggingface.co/)
 
 ## Undergrad/Masters Collaborators
 
-*[Leo Liu](https://leo-liuzy.github.io/)*
-<br><sup>Currently an AI resident at Facebook AI Research</sup>
+*[Kai Nylund](https://www.linkedin.com/in/kai-nylund-806443174)*
+<br><sup>Currently an undergraduate at the University of Washington</sup>
 
 *[Leroy Wang](https://www.linkedin.com/in/leroy-wang)*
 <br><sup>Currently an undergraduate at the University of Washington</sup>
