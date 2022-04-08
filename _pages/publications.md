@@ -8,11 +8,11 @@ permalink: /publications/
 
 *Time Waits for No One! Analysis and Challenges of Temporal Misalignment*
 <br><sub>[Kelvin Luu](https://twitter.com/kel__lu), [Daniel Khashabi](https://danielkhashabi.com/), **Suchin Gururangan**, [Karishma Mandyam](https://kmandyam.github.io/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
-<br><sub> In submission // [[paper](https://arxiv.org/abs/2111.07408)] [[code](https://github.com/Kel-Lu/time-waits-for-no-one)]</sub>
+<br><sub> NAACL 2022 // [[paper](https://arxiv.org/abs/2111.07408)] [[code](https://github.com/Kel-Lu/time-waits-for-no-one)]</sub>
 
 *DEMix Layers: Disentangling Domains for Modular Language Modeling*
 <br><sub>**Suchin Gururangan**, [Mike Lewis](https://twitter.com/ml_perception?lang=en), [Ari Holtzman](https://ari-holtzman.github.io/), [Noah A. Smith](https://nasmith.github.io/), and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
-<br><sub> In submission // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sub>
+<br><sub> NAACL 2022 // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sub>
 
 *Don't Stop Pretraining: Adapt Language Models to Domains and Tasks*
 <br><sub>**Suchin Gururangan**, [Ana Marasović](https://www.anamarasovic.com/), [Swabha Swayamdipta](https://swabhs.com/), [Kyle Lo](https://kyleclo.github.io/), [Iz Beltagy](https://beltagy.net/), [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), and [Noah A. Smith](https://nasmith.github.io/) </sub>
