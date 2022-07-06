@@ -60,8 +60,9 @@ permalink: /publications/
 
 
 *Annotation Artifacts in Natural Language Inference Data*
-<br><sub>**Suchin Gururangan**, [Swabha Swayamdipta](https://swabhs.com/), [Omer Levy](https://www.cs.tau.ac.il/~levyomer/), [Roy Schwartz](https://schwartz-lab-huji.github.io/), [Samuel Bowman](https://cims.nyu.edu/~sbowman/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
+<br><sub>**Suchin Gururangan**<sup>\*</sup>, [Swabha Swayamdipta](https://swabhs.com/)<sup>\*</sup>, [Omer Levy](https://www.cs.tau.ac.il/~levyomer/), [Roy Schwartz](https://schwartz-lab-huji.github.io/), [Samuel Bowman](https://cims.nyu.edu/~sbowman/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub>NAACL 2018 // [[paper](https://aclanthology.org/N18-2017/)]</sub>
+<br><sub><sup>*</sup>Equal contribution</sub>
 
 *All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text*
 <br><sub>[Elizabeth Clark](https://homes.cs.washington.edu/~eaclark7/), [Tal August](https://homes.cs.washington.edu/~taugust/), Sofia Serrano, Nikita Haduong, **Suchin Gururangan**, and [Noah A. Smith](https://nasmith.github.io/)</sub>
