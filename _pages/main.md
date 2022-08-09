@@ -19,6 +19,7 @@ I do research in natural language processing and machine learning. My main resea
 Check out my [publications](https://suchin.io/publications) to learn more. 
 
 ## Announcements
+* Our new paper ["Branch-Train-Merge"](https://arxiv.org/abs/2208.03306) just dropped!
 * Our new paper ["Nearest Neighbor Zero-Shot Inference"](https://suchin.io/assets/knnprompt.pdf) is live!
 * Two papers ("DEMix" and "Time Waits for No One!") accepted to NAACL 2022!
 * In April, I'll be giving a guest lecture in the **Data Processing + Values** course at UW on our [quality filtering](https://arxiv.org/abs/2201.10474) paper.
