@@ -6,7 +6,15 @@ permalink: /publications/
 
 ## Adaptive Language Models
 
-💫 **New paper** 💫<br>*Nearest Neighbor Zero-Shot Inference*
+💫 **New paper** 💫
+<br>*Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models*
+<br><sub>[Margaret Li](https://margs.li/)<sup>\*</sup>, **Suchin Gururangan<sup>\*</sup>**, [Tim Dettmers](https://timdettmers.com/), [Mike Lewis](https://twitter.com/ml_perception?lang=en), [Noah A. Smith](https://nasmith.github.io/), and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
+<br><sub> in submission // [[paper](https://arxiv.org/abs/2208.03306?fbclid=IwAR0CtgXUwgk2yOiP7iProj2oMrR0WQDd6fp6pv6Cfnwgnt66GxC0yQfH5YA)] [[code](https://github.com/hadasah/btm)]</sub>
+<br><sub><sup>*</sup>Equal contribution</sub>
+
+
+
+*Nearest Neighbor Zero-Shot Inference*
 <br><sub>Weijia Shi, Julian Michael, **Suchin Gururangan**,  and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
 <br><sub> in submission // [[paper](https://suchin.io/assets/knnprompt.pdf)] [[code](https://github.com/swj0419/kNN_prompt)]</sub>
 
