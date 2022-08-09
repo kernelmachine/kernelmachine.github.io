@@ -15,7 +15,7 @@ permalink: /publications/
 
 
 *Nearest Neighbor Zero-Shot Inference*
-<br><sub>Weijia Shi, Julian Michael, **Suchin Gururangan**,  and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
+<br><sub>[Weijia Shi](https://weijia-shi.netlify.app/author/weijia-shi/), [Julian Michael](https://julianmichael.org/), **Suchin Gururangan**,  and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
 <br><sub> in submission // [[paper](https://suchin.io/assets/knnprompt.pdf)] [[code](https://github.com/swj0419/kNN_prompt)]</sub>
 
 *Time Waits for No One! Analysis and Challenges of Temporal Misalignment*
