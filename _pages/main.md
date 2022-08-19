@@ -19,9 +19,10 @@ I do research in natural language processing and machine learning. My main resea
 Check out my [publications](https://suchin.io/publications) to learn more. 
 
 ## Announcements
-* Our new paper ["Branch-Train-Merge"](https://arxiv.org/abs/2208.03306) just dropped!
-* Our new paper ["Nearest Neighbor Zero-Shot Inference"](https://suchin.io/assets/knnprompt.pdf) is live!
-* Two papers ("DEMix" and "Time Waits for No One!") accepted to NAACL 2022!
-* In April, I'll be giving a guest lecture in the **Data Processing + Values** course at UW on our [quality filtering](https://arxiv.org/abs/2201.10474) paper.
-* Our new preprint, ["Whose Language Counts As High Quality?"](https://arxiv.org/abs/2201.10474), just dropped!
-* I'll be giving a talk at IBM Research Zurich in early March.
+* Aug 2022: Talk at Mosaic ML, on "Branch-Train-Merge"
+* Aug 2022: Our new paper ["Branch-Train-Merge"](https://arxiv.org/abs/2208.03306) just dropped!
+* June 2022: Our new paper ["Nearest Neighbor Zero-Shot Inference"](https://suchin.io/assets/knnprompt.pdf) is live!
+* March 2022: Two papers ("DEMix" and "Time Waits for No One!") accepted to NAACL 2022!
+* March 2022: Talk at IBM Research Zurich.
+* April 2022: I'll be giving a guest lecture in the **Data Processing + Values** course at UW on our [quality filtering](https://arxiv.org/abs/2201.10474) paper.
+* January 2022: Our new preprint, ["Whose Language Counts As High Quality?"](https://arxiv.org/abs/2201.10474), just dropped!
