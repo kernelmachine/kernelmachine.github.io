@@ -8,7 +8,6 @@ I'm a 3rd year PhD candidate in Computer Science at the [University of Washingto
 
 I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), and a data scientist and software engineer in startups in Boston and Seattle. And in another world, I did research in [neuroscience](#neuroscience)!
 
-
 I do research in natural language processing and machine learning. My main research interests are:
 
  * <span style="color:#add8e6"><i class="fas fa-wind"></i></span> Adaptive and rapidly customizable [**language models**](https://suchin.io/publications/#adaptive-language-models)
@@ -16,7 +15,10 @@ I do research in natural language processing and machine learning. My main resea
  * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> [**Green NLP**](https://suchin.io/publications/#green-nlp)
  * <span style="color:#ff0088"><i class="fas fa-sort-amount-down"></i></span> Improving [**Model Evaluation**](https://suchin.io/publications/#evaluation)
 
-Check out my [publications](https://suchin.io/publications) to learn more. 
+I have co-authored conference papers that were cited as "outstanding" and "honorable mention for best paper" at [ACL 2020](https://aclanthology.org/2020.acl-main.740/) and [ACL 2021](https://aclanthology.org/2021.acl-long.565/).
+
+
+Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
 * Aug 2022: Talk at Mosaic ML, on "Branch-Train-Merge"
