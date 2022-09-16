@@ -15,7 +15,7 @@ I do research in natural language processing and machine learning. My main resea
  * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> [**Green NLP**](https://suchin.io/publications/#green-nlp)
  * <span style="color:#ff0088"><i class="fas fa-sort-amount-down"></i></span> Improving [**Model Evaluation**](https://suchin.io/publications/#evaluation)
 
-I have co-authored conference papers that were cited as "outstanding" and "honorable mention for best paper" at [ACL 2020](https://aclanthology.org/2020.acl-main.740/) and [ACL 2021](https://aclanthology.org/2021.acl-long.565/).
+I have co-authored papers that were cited as "outstanding" and "honorable mention for best paper" at [ACL 2020](https://aclanthology.org/2020.acl-main.740/) and [ACL 2021](https://aclanthology.org/2021.acl-long.565/).
 
 
 Check out my [publications](https://suchin.io/publications/) to learn more.
