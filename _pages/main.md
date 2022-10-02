@@ -21,6 +21,7 @@ I have co-authored papers that were cited as "outstanding" and "honorable mentio
 Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
+* Sept 2022: Talk at USC
 * Aug 2022: Talk at Mosaic ML, on "Branch-Train-Merge"
 * Aug 2022: Our new paper ["Branch-Train-Merge"](https://arxiv.org/abs/2208.03306) just dropped!
 * June 2022: Our new paper ["Nearest Neighbor Zero-Shot Inference"](https://suchin.io/assets/knnprompt.pdf) is live!
