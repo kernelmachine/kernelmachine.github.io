@@ -10,10 +10,10 @@ I was previously a Predoctoral Young Investigator at [AI2](http://allenai.org), 
 
 I do research in natural language processing and machine learning. My main research interests are:
 
- * <span style="color:#add8e6"><i class="fas fa-wind"></i></span> Adaptive and rapidly customizable [**language models**](https://suchin.io/publications/#adaptive-language-models)
- * <span style="color:#daa520"><i class="fas fa-shield-alt"></i></span>  [**Safety and ethics**](https://suchin.io/publications/#safety-and-ethics) of language models
- * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> [**Green NLP**](https://suchin.io/publications/#green-nlp)
- * <span style="color:#ff0088"><i class="fas fa-sort-amount-down"></i></span> Improving [**Model Evaluation**](https://suchin.io/publications/#evaluation)
+ * <span style="color:#add8e6"><i class="fas fa-wind"></i></span> Adaptive and rapidly customizable language models
+ * <span style="color:#daa520"><i class="fas fa-shield-alt"></i></span>  Safety and ethics of language models
+ * <span style="color:#32cd77"><i class="fas fa-leaf"></i></span> Green AI
+ * <span style="color:#ff0088"><i class="fas fa-sort-amount-down"></i></span> Improving Model Evaluation
 
 I have co-authored papers that were cited as "outstanding" and "honorable mention for best paper" at [ACL 2020](https://aclanthology.org/2020.acl-main.740/) and [ACL 2021](https://aclanthology.org/2021.acl-long.565/).
 
