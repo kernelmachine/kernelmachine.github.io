@@ -17,6 +17,7 @@ I have co-authored papers that were cited as "outstanding" and "honorable mentio
 Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
+* Oct 2022: Three papers ("Whose Language Counts as High Quality", "M2D2", and "Nearest Neighbors Zero-Shot Inference") accepted to EMNLP 2022!
 * Sept 2022: Talk at USC
 * Aug 2022: Talk at Mosaic ML, on "Branch-Train-Merge"
 * Aug 2022: Our new paper ["Branch-Train-Merge"](https://arxiv.org/abs/2208.03306) just dropped!
