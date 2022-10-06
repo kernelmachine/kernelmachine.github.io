@@ -6,15 +6,28 @@ permalink: /publications/
 
 ## 2022
 
+*Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection*
+<br><sub>**Suchin Gururangan**, [Dallas Card](https://dallascard.github.io/), [Sarah K. Dreier](https://www.skdreier.com/), [Emily K. Gade](https://emilykgade.com/), Leroy Wang, [Blarry Wang](https://blarry.me/),[Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz), and [Noah A. Smith](https://nasmith.github.io/)</sub>
+<br><sub> EMNLP 2022 // [[paper](https://arxiv.org/abs/2201.10474)] [[code](https://github.com/kernelmachine/quality-filter)] </sub>
+
+
+💫 **New paper** 💫
+<br>*M2D2: A Massively Multi-Domain Language Modeling Dataset*
+<br><sub>[Machel Reid](https://machelreid.github.io/), [Victor Zhong](https://www.victorzhong.com/), **Suchin Gururangan**, [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) </sub>
+<br><sub> EMNLP 2022 // [[paper](https://arxiv.org/abs/2201.10474)] [[code](https://github.com/kernelmachine/quality-filter)] </sub>
+
+
+*Nearest Neighbor Zero-Shot Inference*
+<br><sub>[Weijia Shi](https://weijia-shi.netlify.app/author/weijia-shi/), [Julian Michael](https://julianmichael.org/), **Suchin Gururangan**,  and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
+<br><sub> EMNLP 2022 // [[paper](https://suchin.io/assets/knnprompt.pdf)] [[code](https://github.com/swj0419/kNN_prompt)]</sub>
+
+
 💫 **New paper** 💫
 <br>*Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models*
 <br><sub>[Margaret Li](https://margs.li/)<sup>\*</sup>, **Suchin Gururangan<sup>\*</sup>**, [Tim Dettmers](https://timdettmers.com/), [Mike Lewis](https://twitter.com/ml_perception?lang=en), [Noah A. Smith](https://nasmith.github.io/), and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
 <br><sub> in submission // [[paper](https://arxiv.org/abs/2208.03306)] [[code](https://github.com/hadasah/btm)]</sub>
 <br><sub><sup>*</sup>Equal contribution</sub>
 
-*Nearest Neighbor Zero-Shot Inference*
-<br><sub>[Weijia Shi](https://weijia-shi.netlify.app/author/weijia-shi/), [Julian Michael](https://julianmichael.org/), **Suchin Gururangan**,  and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
-<br><sub> in submission // [[paper](https://suchin.io/assets/knnprompt.pdf)] [[code](https://github.com/swj0419/kNN_prompt)]</sub>
 
 *Time Waits for No One! Analysis and Challenges of Temporal Misalignment*
 <br><sub>[Kelvin Luu](https://twitter.com/kel__lu), [Daniel Khashabi](https://danielkhashabi.com/), **Suchin Gururangan**, [Karishma Mandyam](https://kmandyam.github.io/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
@@ -24,9 +37,6 @@ permalink: /publications/
 <br><sub>**Suchin Gururangan**, [Mike Lewis](https://twitter.com/ml_perception?lang=en), [Ari Holtzman](https://ari-holtzman.github.io/), [Noah A. Smith](https://nasmith.github.io/), and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
 <br><sub> NAACL 2022 // [[paper](https://arxiv.org/abs/2108.05036)] [[model code](https://github.com/kernelmachine/demix)] [[data code](https://github.com/kernelmachine/demix-data)]</sub>
 
-*Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection*
-<br><sub>**Suchin Gururangan**, [Dallas Card](https://dallascard.github.io/), [Sarah K. Dreier](https://www.skdreier.com/), [Emily K. Gade](https://emilykgade.com/), Leroy Wang, [Blarry Wang](https://blarry.me/),[Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz), and [Noah A. Smith](https://nasmith.github.io/)</sub>
-<br><sub> In submission // [[paper](https://arxiv.org/abs/2201.10474)] [[code](https://github.com/kernelmachine/quality-filter)] </sub>
 
 
 ## 2021
