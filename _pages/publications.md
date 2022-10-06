@@ -14,7 +14,7 @@ permalink: /publications/
 💫 **New paper** 💫
 <br>*M2D2: A Massively Multi-Domain Language Modeling Dataset*
 <br><sub>[Machel Reid](https://machelreid.github.io/), [Victor Zhong](https://www.victorzhong.com/), **Suchin Gururangan**, [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) </sub>
-<br><sub> EMNLP 2022 // [[paper](https://arxiv.org/abs/2201.10474)] [[code](https://github.com/kernelmachine/quality-filter)] </sub>
+<br><sub> EMNLP 2022 // [paper] [code] </sub>
 
 
 *Nearest Neighbor Zero-Shot Inference*
