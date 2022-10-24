@@ -17,6 +17,7 @@ I have co-authored papers that were cited as "outstanding" and "honorable mentio
 Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
+* Oct 2022: Our new paper, ["lo-fi: distributed fine-tuning without communication"](https://arxiv.org/abs/2210.11948) is live!
 * Oct 2022: Three papers ("Whose Language Counts as High Quality", "M2D2", and "Nearest Neighbor Zero-Shot Inference") accepted to EMNLP 2022!
 * Sept 2022: Talk at USC
 * Aug 2022: Talk at Mosaic ML, on "Branch-Train-Merge"
