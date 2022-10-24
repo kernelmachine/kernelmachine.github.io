@@ -6,6 +6,7 @@ permalink: /publications/
 
 ## 2022
 
+💫 **New paper** 💫
 *lo-fi: distributed fine-tuning without communication*
 <br><sub>Mitchell Wortsman, **Suchin Gururangan**, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</sub>
 <br><sub> in submission // [[paper]([https://arxiv.org/abs/2201.10474](https://arxiv.org/abs/2210.11948))]</sub>
@@ -21,8 +22,6 @@ permalink: /publications/
 <br><sub>[Weijia Shi](https://weijia-shi.netlify.app/author/weijia-shi/), [Julian Michael](https://julianmichael.org/), **Suchin Gururangan**,  and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
 <br><sub> EMNLP 2022 // [[paper](https://suchin.io/assets/knnprompt.pdf)] [[code](https://github.com/swj0419/kNN_prompt)]</sub>
 
-
-💫 **New paper** 💫
 <br>*Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models*
 <br><sub>[Margaret Li](https://margs.li/)<sup>\*</sup>, **Suchin Gururangan<sup>\*</sup>**, [Tim Dettmers](https://timdettmers.com/), [Mike Lewis](https://twitter.com/ml_perception?lang=en), [Noah A. Smith](https://nasmith.github.io/), and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
 <br><sub> in submission // [[paper](https://arxiv.org/abs/2208.03306)] [[code](https://github.com/hadasah/btm)]</sub>
