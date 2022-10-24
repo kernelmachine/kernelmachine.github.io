@@ -7,7 +7,7 @@ permalink: /publications/
 ## 2022
 
 💫 **New paper** 💫
-*lo-fi: distributed fine-tuning without communication*
+<br>*lo-fi: distributed fine-tuning without communication*
 <br><sub>Mitchell Wortsman, **Suchin Gururangan**, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</sub>
 <br><sub> in submission // [[paper]([https://arxiv.org/abs/2201.10474](https://arxiv.org/abs/2210.11948))]</sub>
 
