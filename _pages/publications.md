@@ -9,13 +9,13 @@ permalink: /publications/
 💫 **New paper** 💫
 <br>*lo-fi: distributed fine-tuning without communication*
 <br><sub>Mitchell Wortsman, **Suchin Gururangan**, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</sub>
-<br><sub> in submission // [[paper]([https://arxiv.org/abs/2201.10474](https://arxiv.org/abs/2210.11948))]</sub>
+<br><sub> in submission // [[paper](https://arxiv.org/abs/2210.11948)]  </sub>
 
 
 💫 **New paper** 💫
 <br>*M2D2: A Massively Multi-Domain Language Modeling Dataset*
 <br><sub>[Machel Reid](https://machelreid.github.io/), [Victor Zhong](https://www.victorzhong.com/), **Suchin Gururangan**, [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) </sub>
-<br><sub> EMNLP 2022 // [paper] [code] </sub>
+<br><sub> EMNLP 2022 // [[paper](https://arxiv.org/abs/2210.07370)] [[code](https://github.com/machelreid/m2d2)] </sub>
 
 
 *Nearest Neighbor Zero-Shot Inference*
