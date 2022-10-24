@@ -27,7 +27,6 @@ permalink: /publications/
 <br><sub> in submission // [[paper](https://arxiv.org/abs/2208.03306)] [[code](https://github.com/hadasah/btm)]</sub>
 <br><sub><sup>*</sup>Equal contribution</sub>
 
-
 *Time Waits for No One! Analysis and Challenges of Temporal Misalignment*
 <br><sub>[Kelvin Luu](https://twitter.com/kel__lu), [Daniel Khashabi](https://danielkhashabi.com/), **Suchin Gururangan**, [Karishma Mandyam](https://kmandyam.github.io/), and [Noah A. Smith](https://nasmith.github.io/)</sub>
 <br><sub> NAACL 2022 // [[paper](https://arxiv.org/abs/2111.07408)] [[code](https://github.com/Kel-Lu/time-waits-for-no-one)]</sub>
