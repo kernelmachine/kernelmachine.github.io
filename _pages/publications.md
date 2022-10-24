@@ -6,9 +6,9 @@ permalink: /publications/
 
 ## 2022
 
-*Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection*
-<br><sub>**Suchin Gururangan**, [Dallas Card](https://dallascard.github.io/), [Sarah K. Dreier](https://www.skdreier.com/), [Emily K. Gade](https://emilykgade.com/), Leroy Wang, [Blarry Wang](https://blarry.me/),[Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz), and [Noah A. Smith](https://nasmith.github.io/)</sub>
-<br><sub> EMNLP 2022 // [[paper](https://arxiv.org/abs/2201.10474)] [[code](https://github.com/kernelmachine/quality-filter)] </sub>
+*lo-fi: distributed fine-tuning without communication*
+<br><sub>Mitchell Wortsman, **Suchin Gururangan**, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</sub>
+<br><sub> in submission // [[paper]([https://arxiv.org/abs/2201.10474](https://arxiv.org/abs/2210.11948))]</sub>
 
 
 💫 **New paper** 💫
