@@ -11,12 +11,14 @@ permalink: /publications/
 <br><sub>Mitchell Wortsman, **Suchin Gururangan**, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</sub>
 <br><sub> in submission // [[paper](https://arxiv.org/abs/2210.11948)]  </sub>
 
-
 💫 **New paper** 💫
 <br>*M2D2: A Massively Multi-Domain Language Modeling Dataset*
 <br><sub>[Machel Reid](https://machelreid.github.io/), [Victor Zhong](https://www.victorzhong.com/), **Suchin Gururangan**, [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) </sub>
 <br><sub> EMNLP 2022 // [[paper](https://arxiv.org/abs/2210.07370)] [[code](https://github.com/machelreid/m2d2)] </sub>
 
+*Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection*
+<br><sub>**Suchin Gururangan**, [Dallas Card](https://dallascard.github.io/), [Sarah K. Dreier](https://www.skdreier.com/), [Emily K. Gade](https://emilykgade.com/), Leroy Wang, [Blarry Wang](https://blarry.me/),[Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz), and [Noah A. Smith](https://nasmith.github.io/)</sub>
+<br><sub> EMNLP 2022 // [[paper](https://arxiv.org/abs/2201.10474)] [[code](https://github.com/kernelmachine/quality-filter)] </sub>
 
 *Nearest Neighbor Zero-Shot Inference*
 <br><sub>[Weijia Shi](https://weijia-shi.netlify.app/author/weijia-shi/), [Julian Michael](https://julianmichael.org/), **Suchin Gururangan**,  and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)</sub>
