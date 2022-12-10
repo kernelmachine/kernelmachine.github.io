@@ -11,12 +11,11 @@ permalink: /publications/
 <br><sub>Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, **Suchin Gururangan**, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi</sub>
 <br><sub> in submission // [[paper]([https://arxiv.org/abs/2212.04089](https://arxiv.org/abs/2212.04089)]  </sub>
 
-
-<br>*lo-fi: distributed fine-tuning without communication*
+*lo-fi: distributed fine-tuning without communication*
 <br><sub>Mitchell Wortsman, **Suchin Gururangan**, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</sub>
 <br><sub> in submission // [[paper](https://arxiv.org/abs/2210.11948)]  </sub>
 
-<br>*M2D2: A Massively Multi-Domain Language Modeling Dataset*
+*M2D2: A Massively Multi-Domain Language Modeling Dataset*
 <br><sub>[Machel Reid](https://machelreid.github.io/), [Victor Zhong](https://www.victorzhong.com/), **Suchin Gururangan**, [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) </sub>
 <br><sub> EMNLP 2022 // [[paper](https://arxiv.org/abs/2210.07370)] [[code](https://github.com/machelreid/m2d2)] </sub>
 
