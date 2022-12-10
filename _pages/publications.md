@@ -6,6 +6,7 @@ permalink: /publications/
 
 ## 2022
 
+💫 **New paper** 💫
 <br>*Editing Models with Task Arithmetic*
 <br><sub>Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, **Suchin Gururangan**, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi</sub>
 <br><sub> in submission // [[paper]([https://arxiv.org/abs/2212.04089](https://arxiv.org/abs/2212.04089)]  </sub>
