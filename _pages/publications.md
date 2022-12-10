@@ -6,8 +6,8 @@ permalink: /publications/
 
 ## 2022
 
-<br>*lo-fi: distributed fine-tuning without communication*
-<br><sub>Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, **Suchin Gururangan**, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi </sub>
+<br>*Editing Models with Task Arithmetic*
+<br><sub>Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, **Suchin Gururangan**, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi</sub>
 <br><sub> in submission // [[paper]([https://arxiv.org/abs/2212.04089](https://arxiv.org/abs/2212.04089)]  </sub>
 
 
