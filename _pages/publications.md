@@ -4,16 +4,17 @@ layout: single
 permalink: /publications/
 ---
 
-## 2022
+## 2023
 
-💫 **New paper** 💫
 <br>*Editing Models with Task Arithmetic*
 <br><sub>Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, **Suchin Gururangan**, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi</sub>
-<br><sub> in submission // [[paper](https://arxiv.org/abs/2212.04089)] </sub>
+<br><sub> ICLR 2023 // [[paper](https://arxiv.org/abs/2212.04089)] </sub>
+
+## 2022
 
 <br>*lo-fi: distributed fine-tuning without communication*
 <br><sub>Mitchell Wortsman, **Suchin Gururangan**, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</sub>
-<br><sub> To appear in TMLR // [[paper](https://arxiv.org/abs/2210.11948)]  </sub>
+<br><sub> TMLR // [[paper](https://arxiv.org/abs/2210.11948)]  </sub>
 
 <br>*M2D2: A Massively Multi-Domain Language Modeling Dataset*
 <br><sub>[Machel Reid](https://machelreid.github.io/), [Victor Zhong](https://www.victorzhong.com/), **Suchin Gururangan**, [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) </sub>
