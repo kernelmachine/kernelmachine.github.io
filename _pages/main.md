@@ -17,6 +17,8 @@ I have co-authored papers that were cited as "outstanding" and "honorable mentio
 Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
+* Mar 2023: ["Scaling Expert Language Models with Unsupervised Domain Discovery"](https://arxiv.org/abs/2303.14177) is live.
+* Mar 2023: Passed my Generals Examination!
 * Jan 2023: ["Editing Models with Task Arithmetic"](https://arxiv.org/abs/2212.04089) was accepted to ICLR 2023.
 * Oct 2022: Our new paper, ["lo-fi: distributed fine-tuning without communication"](https://arxiv.org/abs/2210.11948) is live!
 * Oct 2022: Three papers ("Whose Language Counts as High Quality", "M2D2", and "Nearest Neighbor Zero-Shot Inference") accepted to EMNLP 2022!
