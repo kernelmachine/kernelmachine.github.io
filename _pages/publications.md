@@ -6,6 +6,10 @@ permalink: /publications/
 
 ## 2023
 
+<br>*Scaling Expert Language Models with Unsupervised Domain Discovery*
+<br><sub>**Suchin Gururangan**, Margaret Li, Mike Lewis, Weijia Shi, Tim Althoff, Noah A. Smith, Luke Zettlemoyer</sub>
+<br><sub> in submission // [[paper](https://arxiv.org/abs/2303.14177)] </sub>
+
 <br>*Editing Models with Task Arithmetic*
 <br><sub>Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, **Suchin Gururangan**, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi</sub>
 <br><sub> ICLR 2023 // [[paper](https://arxiv.org/abs/2212.04089)] </sub>
