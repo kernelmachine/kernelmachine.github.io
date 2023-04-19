@@ -17,6 +17,9 @@ I have co-authored papers that were cited as "outstanding" and "honorable mentio
 Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
+* May 2023: Invited talk at Google Brain
+* May 2023: Invited talk at Stanford NLP
+* Apr 2023: Invited talk at USC ISI
 * Mar 2023: ["Scaling Expert Language Models with Unsupervised Domain Discovery"](https://arxiv.org/abs/2303.14177) is live.
 * Mar 2023: Passed my Generals Examination!
 * Jan 2023: ["Editing Models with Task Arithmetic"](https://arxiv.org/abs/2212.04089) was accepted to ICLR 2023.
