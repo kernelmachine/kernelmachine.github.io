@@ -27,7 +27,7 @@ This means that no one will see your proposal outside of the funding committee, 
 
 ### Organization
 
-There are many ways to go about organizing your proposal, and it's probably going to be specific to the fellowship guidelines. For this proposal, I chose to focus on two broad ideas --- one lower-level (modular architectures), and another higher-level and broader(decentralized models) but builds on the previous section. Generally, try to think about who might be reading your proposal and what they could be interested in. Bold keywords when possible to draw people's attention.
+There are many ways to go about organizing your proposal, and it's probably going to be specific to the fellowship guidelines. For this proposal, I chose to focus on two broad ideas --- one lower-level idea about modular architectures, and another higher-level idea around decentralized models but builds on the previous section. Bold keywords when possible to draw people's attention.
 
 However, make sure the proposal is cohesive with a *single* overarching idea. It's tempting to talk about all the random ideas you have, but it's better to convey one solid, well thought-out idea with lots of different sub-directions, than a maze of 50 ideas that may not be related to one another.
 
