@@ -31,10 +31,9 @@ There are many ways to go about organizing your proposal, and it's probably goin
 
 However, make sure the proposal is cohesive with a *single* overarching idea. It's tempting to talk about all the random ideas you have, but it's better to convey one solid, well thought-out idea with lots of different sub-directions, than a maze of 50 ideas that may not be related to one another.
 
-### Make sure to tie your interests with the sponsors' interests
+### Tie your interests with the sponsor's interests
 
-Building on the previous point, remember that, while this statement might be like your "thesis proposal lite", you need to make sure that the ideas are interesting to the sponsor! Do a bit of research on the sponsor's research or application areas, and try to tie in your directions to what they might be doing. For example, I chose to add a few sentences around how my work is applicable to Bloomberg's interest in building models for breaking news, where domains are rapidly updating and modularity is useful.
-
+Remember that, while this statement might be like your "thesis proposal lite", the ideas should eb interesting to the sponsor! Do a bit of research on the sponsor's research or application areas, and try to tie in your directions to what they might be working on. For example, I chose to add a few sentences around how my work is applicable to Bloomberg's interest in building models for breaking news, where domains are rapidly updating and modularity is useful.
 
 ### Speculate on the future
 
