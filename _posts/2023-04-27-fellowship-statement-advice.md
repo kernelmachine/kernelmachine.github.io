@@ -19,11 +19,11 @@ This is a style choice, but I try to start off papers and proposals boldly: with
 
 ### Use your previous work as a scaffold
 
-Your goal is not only to convince the sponsor that you have exciting ideas. You also want to show them that you have done previous work in your proposed research area that strongly suggests your ideas will be successful. You also want to show off that you can complete projects. So all ideas you propose should build off previous work you have pursued. In my case, I chose to focus on modular LM architectures and decentralized LMs, which primarily built on our work on DEMix layers. In each section of the proposals, my ideas for future work drew on specific findings from that work. I also tried to cite other relevant work that I published, whenever possible.
+Your goal is not only to convince the sponsor that you have exciting ideas. You also want to show them that you have done previous work in your proposed research area that strongly suggests your ideas will be successful. And you want to show off that you can complete projects. So, all your ideas should build off previous work you have pursued. In my case, I chose to focus on modular LM architectures and decentralized LMs, which primarily built on our work on [DEMix layers](https://arxiv.org/abs/2108.05036). In each section, my ideas for future work drew on specific findings from DEMix. Whenever possible, I  tried to cite other relevant work that I published .
 
 ### Remember this is a closed publication
 
-This means that no one will see your proposal outside of the funding committee, unless you post it publicly :P So, if you have that perfect sentence or two in one of your papers about something you'd like to argue, copy it over here! Obviously, you don't want your proposal to re-hash one of your papers, but if there are some verbatim snippets, I think that's totally fine.
+This means that no one will see your proposal outside of the funding committee, unless you post it publicly :). So, if you have that perfect sentence or two in one of your papers about something you'd like to argue, copy it over here! Obviously, you don't want your proposal to re-hash one of your papers, but if there are some verbatim snippets, I think that's totally fine.
 
 ### Organization
 
