@@ -33,14 +33,14 @@ However, make sure the proposal is cohesive with a *single* overarching idea. It
 
 ### Tie your interests with the sponsor's interests
 
-Remember that, while this statement might be like your "thesis proposal lite", the ideas should eb interesting to the sponsor! Do a bit of research on the sponsor's research or application areas, and try to tie in your directions to what they might be working on. For example, I chose to add a few sentences around how my work is applicable to Bloomberg's interest in building models for breaking news, where domains are rapidly updating and modularity is useful.
+Remember that your research proposals should be interesting to the sponsor! Do a bit of research on the sponsor's research or application areas, and try to tie in your directions to what they might be working on. For example, I chose to add a few sentences around how my work is applicable to Bloomberg's interest in building models for breaking news, where domains are rapidly updating and modularity is useful. The Bloomberg fellowship also has a "social good" dimension, and so social themes weave throughout my document.
 
 ### Speculate on the future
 
-Feel free to add lots of future work in your proposal, half-baked directions, or things you're generally excited about but may not be fully formulated yet. For example, a lot of the decentralized LM section contains future work that I wasn't sure would totally work, but had a vague idea about. These lofty ideas are the things that will get your reader excited to fund you. But again, make sure all ideas you mention are cohesive and not all over the place.
+Feel free to add lots of future work in your proposal, including half-baked directions. For example, a lot of the decentralized LM section contains future work that I wasn't sure would totally work, but had a vague idea about. These lofty ideas are the things that will get the reader excited to fund you. But again, make sure all your ideas are cohesive and supported by previous work.
 
 ### Closing
 
-As I mentioned earlier, I think writing a fellowship proposal was an amazing exercise to learn how to craft a longer term research agenda. Regardless of the outcome of the fellowship, hopefully you'll learn some new stuff about writing, generate novel ideas for research, and get a head start on your thesis!
+I think writing a fellowship proposal was an amazing exercise to learn how to craft a longer term research agenda. Regardless of the outcome of your application, hopefully you'll learn some new stuff about writing, generate novel ideas for research, and get a head start on your thesis!
 
 Feel free to reach out if you have more questions, and if you are currently applying for fellowships: good luck!
