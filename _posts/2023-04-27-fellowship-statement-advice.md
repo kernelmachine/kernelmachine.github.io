@@ -1,0 +1,47 @@
+---
+title: "PhD Fellowship Proposal Advice"
+excerpt_separator: "<!--more-->"
+---
+
+A few years ago I published a blog post on writing graduate school personal statements which I think lots of folks found useful, so here is the next edition: tips for writing a successful PhD fellowship proposal!
+
+My [2022 Bloomberg Data Science Fellowship](https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/) proposal can be found <a href="https://suchin.io/assets/bloomberg_fellowship_statement.pdf">here</a>. 
+
+Here are a few tips and tricks I learned along the way about writing a good fellowship proposal:
+
+### Treat this proposal as a "thesis proposal lite"
+
+As opposed to a personal statement for grad school applications, I think you should treat the fellowship proposal as a "thesis proposal lite". If you're at the stage where you are applying for fellowships, you've probably got some research experience under your belt, an idea of a broader story you're interested in pursuing, and hopefully at least one or two published papers that provide motivations for your pursuits. Pretend you're talking to your thesis committee about what you want to work on, and convey those points here! However, this proposal will likely be a much more condensed version of what your thesis proposal will be. Generally, I found this exercise to be extremely useful for my PhD process, since it forced me to step back and think about the broader implications of my research.
+
+### Be bold in your introduction!
+
+This is a style choice, but I try to start off papers and proposals boldly: with snappy, eye-catching statements about the world that grip the reader.  In this proposal, I start off by saying that the language model pipeline is centralized. Make sure your statements about the world are not too wordy or long, and make sure the statements are not subjective enough to turn certain readers away. It is best if you can add citations to your first sentences. For the rest of the introduction, follow the general writing guidelines, e.g., use active voice. I sometimes like to end the introduction with an outline of the rest of the document, but that is not always necessary.
+
+### Use your previous work as a scaffold
+
+Your goal is not only to convince the sponsor that you have exciting ideas. You also want to show them that you have done previous work in your proposed research area that strongly suggests your ideas will be successful. You also want to show off that you can complete projects. So all ideas you propose should build off previous work you have pursued. In my case, I chose to focus on modular LM architectures and decentralized LMs, which primarily built on our work on DEMix layers. In each section of the proposals, my ideas for future work drew on specific findings from that work. I also tried to cite other relevant work that I published, whenever possible.
+
+### Remember this is a closed publication
+
+This means that no one will see your proposal, unless you post it publicly :P So, if you have that perfect sentence or two in one of your papers about something you'd like to argue, copy it over here! Obviously, you don't want your proposal to re-hash one of your papers, but if there are some verbatim snippets, I think that's totally fine.
+
+### Organization
+
+There are many ways to go about organizing your proposal, and it's probably going to be specific to the fellowship guidelines. For this proposal, I chose to focus on two broad ideas --- one lower-level (modular architectures), and another higher-level and broader(decentralized models) but builds on the previous section. Generally, try to think about who might be reading your proposal and what they could be interested in. Bold keywords when possible to draw people's attention.
+
+However, make sure the proposal is cohesive with a *single* overarching idea. It's tempting to talk about all the random ideas you have, but it's better to convey one solid, well thought-out idea with lots of different sub-directions, than a maze of 50 ideas that may not be related to one another.
+
+### Make sure to tie your interests with the sponsors' interests
+
+Building on the previous point, remember that, while this statement might be like your "thesis proposal lite", you need to make sure that the ideas are interesting to the sponsor! Do a bit of research on the sponsor's research or application areas, and try to tie in your directions to what they might be doing. For example, I chose to add a few sentences around how my work is applicable to Bloomberg's interest in building models for breaking news, where domains are rapidly updating and modularity is useful.
+
+
+### Speculate on the future
+
+Feel free to add lots of future work in your proposal, half-baked directions, or things you're generally excited about but may not be fully formulated yet. For example, a lot of the decentralized LM section contains future work that I wasn't sure would totally work, but had a vague idea about. These lofty ideas are the things that will get your reader excited to fund you. But again, make sure all ideas you mention are cohesive and not all over the place.
+
+### Closing
+
+As I mentioned earlier, I think writing a fellowship proposal was an amazing exercise to learn how to craft a longer term research agenda. Regardless of the outcome of the fellowship, hopefully you'll learn some new stuff about writing, generate novel ideas for research, and hopefully get a head start on your thesis!
+
+I think that's all I have for now. Feel free to reach out if you have more questions, and if you are currently applying for fellowships: good luck!
