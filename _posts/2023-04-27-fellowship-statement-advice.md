@@ -11,7 +11,7 @@ Here are a few tips and tricks I learned along the way about writing a good fell
 
 ### Treat this proposal as a "thesis proposal lite"
 
-As opposed to a personal statement for grad school applications, I think you should treat the fellowship proposal as a "thesis proposal lite". If you're at the stage where you are applying for fellowships, you've probably got some research experience under your belt, an idea of a broader story you're interested in pursuing, and hopefully at least one or two published papers that provide motivations for your pursuits. Pretend you're talking to your thesis committee about what you want to work on, and convey those points here! However, this proposal will likely be a much more condensed version of what your thesis proposal will be. Generally, I found this exercise to be extremely useful for my PhD process, since it forced me to step back and think about the broader implications of my research.
+As opposed to a personal statement for grad school applications, I think you should treat the fellowship proposal as a "thesis proposal lite". If you're at the stage where you are applying for fellowships, you've probably got some research experience under your belt, an idea of a broader story you're interested in pursuing, and hopefully at least one or two published papers that provide motivations for your pursuits. Pretend you're talking to your thesis committee about what you want to work on, and convey those points here! Generally, I found this exercise to be extremely useful for my PhD process, since it forced me to step back and think about the broader implications of my research.
 
 ### Be bold in your introduction!
 
