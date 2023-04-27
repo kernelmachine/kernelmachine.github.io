@@ -41,6 +41,6 @@ Feel free to add lots of future work in your proposal, half-baked directions, or
 
 ### Closing
 
-As I mentioned earlier, I think writing a fellowship proposal was an amazing exercise to learn how to craft a longer term research agenda. Regardless of the outcome of the fellowship, hopefully you'll learn some new stuff about writing, generate novel ideas for research, and hopefully get a head start on your thesis!
+As I mentioned earlier, I think writing a fellowship proposal was an amazing exercise to learn how to craft a longer term research agenda. Regardless of the outcome of the fellowship, hopefully you'll learn some new stuff about writing, generate novel ideas for research, and get a head start on your thesis!
 
-I think that's all I have for now. Feel free to reach out if you have more questions, and if you are currently applying for fellowships: good luck!
+Feel free to reach out if you have more questions, and if you are currently applying for fellowships: good luck!
