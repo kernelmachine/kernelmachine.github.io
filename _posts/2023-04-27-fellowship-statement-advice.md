@@ -19,7 +19,7 @@ This is a style choice, but I try to start off papers and proposals boldly: with
 
 ### Use your previous work as a scaffold
 
-Your goal is not only to convince the sponsor that you have exciting ideas. You also want to show them that you have done previous work in your proposed research area that strongly suggests your ideas will be successful. And you want to show off that you can complete projects. So, all your ideas should build off previous work you have pursued. In my case, I chose to focus on modular LM architectures and decentralized LMs, which primarily built on our work on [DEMix layers](https://arxiv.org/abs/2108.05036). In each section, my ideas for future work drew on specific findings from DEMix. Whenever possible, I  tried to cite other relevant work that I published .
+Your goal is not only to convince the sponsor that you have exciting ideas. You also want to show them that you have done previous work in your proposed research area that strongly suggests your ideas will be successful. And you want to show off that you can complete projects. So, all your ideas should build off previous work you have pursued. In my case, I chose to focus on modular LM architectures and decentralized LMs, which primarily built on our work on [DEMix layers](https://arxiv.org/abs/2108.05036). In each section, my ideas for future work drew on specific findings from DEMix. Whenever possible, I  tried to cite other relevant work that I published. 
 
 ### Remember this is a closed publication
 
@@ -29,7 +29,7 @@ This means that no one will see your proposal outside of the funding committee, 
 
 There are many ways to go about organizing your proposal, and it's probably going to be specific to the fellowship guidelines. For this proposal, I chose to focus on two broad ideas --- one lower-level idea about modular architectures, and another higher-level idea around decentralized models but builds on the previous section. Bold keywords when possible to draw people's attention.
 
-However, make sure the proposal is cohesive with a *single* overarching idea. It's tempting to talk about all the random ideas you have, but it's better to convey one solid, well thought-out idea with lots of different sub-directions, than a maze of 50 ideas that may not be related to one another.
+However, make sure the proposal is cohesive with a *single* overarching idea. It's tempting to talk about all the random ideas you have, but it's better to convey one solid, well thought-out idea with lots of different sub-directions, than a maze of fifty ideas that may not be related to one another.
 
 ### Tie your interests with the sponsor's interests
 
