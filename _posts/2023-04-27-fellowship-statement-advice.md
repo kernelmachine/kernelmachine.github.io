@@ -3,7 +3,7 @@ title: "PhD Fellowship Proposal Advice"
 excerpt_separator: "<!--more-->"
 ---
 
-A few years ago I published a blog post on writing graduate school personal statements which I think lots of folks found useful, so here is the next edition: tips for writing a successful PhD fellowship proposal!
+A few years ago I published a [blog post](https://suchin.io/personal-statement-advice/) on writing graduate school personal statements which I think lots of folks found useful, so here is the next edition: tips for writing a successful PhD fellowship proposal!
 
 My [2022 Bloomberg Data Science Fellowship](https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/) proposal can be found <a href="https://suchin.io/assets/bloomberg_fellowship_statement.pdf">here</a>. 
 
@@ -23,7 +23,7 @@ Your goal is not only to convince the sponsor that you have exciting ideas. You 
 
 ### Remember this is a closed publication
 
-This means that no one will see your proposal, unless you post it publicly :P So, if you have that perfect sentence or two in one of your papers about something you'd like to argue, copy it over here! Obviously, you don't want your proposal to re-hash one of your papers, but if there are some verbatim snippets, I think that's totally fine.
+This means that no one will see your proposal outside of the funding committee, unless you post it publicly :P So, if you have that perfect sentence or two in one of your papers about something you'd like to argue, copy it over here! Obviously, you don't want your proposal to re-hash one of your papers, but if there are some verbatim snippets, I think that's totally fine.
 
 ### Organization
 
