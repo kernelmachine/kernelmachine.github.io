@@ -17,6 +17,7 @@ I have co-authored papers that were cited as "outstanding" and "honorable mentio
 Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
+* June 2023: Invited talk at Bocconi University
 * May 2023: Invited talk at Samaya AI
 * May 2023: Invited talk at Google Brain
 * May 2023: Invited talk at Stanford NLP
