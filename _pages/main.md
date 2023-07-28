@@ -4,7 +4,7 @@ layout: single
 permalink: /
 ---
 
-I'm a 3rd year PhD candidate in Computer Science at the [University of Washington](https://www.cs.washington.edu/). I'm advised by [Noah Smith](https://nasmith.github.io/) and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz). I am supported by the [Bloomberg Data Science PhD Fellowship](https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/).
+I'm a 4th year PhD candidate in Computer Science at the [University of Washington](https://www.cs.washington.edu/). I'm advised by [Noah Smith](https://nasmith.github.io/) and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz). I am supported by the [Bloomberg Data Science PhD Fellowship](https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/).
 
 I was previously a visiting researcher at [Meta AI Research](https://ai.meta.com/), a Predoctoral Young Investigator at [AI2](http://allenai.org), and a data scientist and software engineer in startups in Boston and Seattle. And in another world, I did research in [neuroscience](#neuroscience)!
 
