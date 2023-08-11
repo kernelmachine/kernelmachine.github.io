@@ -6,6 +6,11 @@ permalink: /publications/
 
 ## 2023
 
+<br>*SILO Language Models: Isolating Legal Risk in a Nonparametric Datastore*
+<br><sub>Sewon Min<sup>\*</sup>, **Suchin Gururangan**<sup>\*</sup>, Eric Wallace, Hannaneh Hajishirzi, Noah A. Smith, Luke Zettlemoyer</sub>
+<br><sub> in submission // [[paper](https://arxiv.org/abs/2308.04430)] [[code](https://github.com/kernelmachine/silo-lm)] </sub>
+<br><sub><sup>*</sup>Equal contribution</sub>
+
 <br>*Scaling Expert Language Models with Unsupervised Domain Discovery*
 <br><sub>**Suchin Gururangan**<sup>\*</sup>, Margaret Li<sup>\*</sup>, Mike Lewis, Weijia Shi, Tim Althoff, Noah A. Smith, Luke Zettlemoyer</sub>
 <br><sub> in submission // [[paper](https://arxiv.org/abs/2303.14177)] [[code](https://github.com/kernelmachine/cbtm)] </sub>
