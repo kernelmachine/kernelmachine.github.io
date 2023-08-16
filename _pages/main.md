@@ -17,6 +17,7 @@ I have co-authored papers that were cited as "outstanding" and "honorable mentio
 Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
+* Aug 2023: Invited talk at NYU
 * Aug 2023: ["SILO Language Models"](https://arxiv.org/abs/2308.04430) is live.
 * Aug 2023: Invited talk at KAIST
 * Aug 2023: Invited talk at Cornell University
