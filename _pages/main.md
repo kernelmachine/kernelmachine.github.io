@@ -17,6 +17,7 @@ I have co-authored papers that were cited as "outstanding" and "honorable mentio
 Check out my [publications](https://suchin.io/publications/) to learn more.
 
 ## Announcements
+* Oct 2023: Invited talk at SambaNova Systems
 * Sept 2023: Invited talk at Google Brain on SILO language models.
 * Aug 2023: Invited talk at NYU
 * Aug 2023: ["SILO Language Models"](https://arxiv.org/abs/2308.04430) is live.
