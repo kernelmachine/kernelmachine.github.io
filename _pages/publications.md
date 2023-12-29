@@ -6,6 +6,10 @@ permalink: /publications/
 
 ## 2023
 
+<br>*Time is Encoded in the Weights of Finetuned Language Models*
+<br><sub>Kai Nylund, **Suchin Gururangan**, Noah A. Smith</sub>
+<br><sub> in submission // [[paper](https://arxiv.org/abs/2312.13401)] [[code](https://github.com/KaiNylund/lm-weights-encode-time)] </sub>
+
 <br>*SILO Language Models: Isolating Legal Risk in a Nonparametric Datastore*
 <br><sub>Sewon Min<sup>\*</sup>, **Suchin Gururangan**<sup>\*</sup>, Eric Wallace, Hannaneh Hajishirzi, Noah A. Smith, Luke Zettlemoyer</sub>
 <br><sub> in submission // [[paper](https://arxiv.org/abs/2308.04430)] [[code](https://github.com/kernelmachine/silo-lm)] </sub>
