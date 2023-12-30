@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Suchin Gururangan
 logo: /assets/images/bio_photo.png
-description: I am a PhD candidate at the University of Washington. I do research in natural language processing and machine learning. <br><br> [📥 Email](mailto:sg01@cs.washington.edu) <br> [🧑🏾‍💻 Github](https://github.com/kernelmachine) <br> [🎓 Google Scholar](https://scholar.google.com/citations?user=CJIKhNIAAAAJ&hl=en&oi=ao)<br>  [📚 Semantic Scholar](https://www.semanticscholar.org/author/Suchin-Gururangan/40895369)<br> [𝕏 Twitter](https://twitter.com/ssgrn)<br>[✍🏾 Blog](https://suchin.io/blog)
+description: I am a PhD candidate at the [University of Washington](https://nlp.washington.edu/people/). I do research in natural language processing and machine learning. I was supported by the [2022 Bloomberg PhD Fellowship](https://www.bloomberg.com/company/stories/introducing-the-fifth-cohort-of-bloomberg-data-science-ph-d-fellows-2022-2023/[), and was previously a visiting researcher at [Meta AI](https://ai.meta.com/) and a predoctoral resident at [AI2](https://allenai.org/). <br><br> [📥 Email](mailto:sg01@cs.washington.edu) <br> [🧑🏾‍💻 Github](https://github.com/kernelmachine) <br> [🎓 Google Scholar](https://scholar.google.com/citations?user=CJIKhNIAAAAJ&hl=en&oi=ao)<br>  [📚 Semantic Scholar](https://www.semanticscholar.org/author/Suchin-Gururangan/40895369)<br> [𝕏 Twitter](https://twitter.com/ssgrn)<br>[✍🏾 Blog](https://suchin.io/blog)
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
