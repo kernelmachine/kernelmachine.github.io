@@ -1,43 +1,66 @@
 ---
-title: "Hello!"
-layout: single
+title: "Main"
+layout: default
 permalink: /
 ---
 
-I'm a 4th year PhD candidate in Computer Science at the [University of Washington](https://www.cs.washington.edu/). I'm advised by [Noah Smith](https://nasmith.github.io/) and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz). I am supported by the [Bloomberg Data Science PhD Fellowship](https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/).
+### Publications
 
-I was previously a visiting researcher at [Meta AI Research](https://ai.meta.com/), a Predoctoral Young Investigator at [AI2](http://allenai.org), and a data scientist and software engineer in startups in Boston and Seattle. And in another world, I did research in [neuroscience](#neuroscience)!
+#### 2023
+-----------
 
-These days, I'm excited about developing  models that are [modular](https://www.semanticscholar.org/paper/DEMix-Layers%3A-Disentangling-Domains-for-Modular-Gururangan-Lewis/917c63f2186119166b3379f5d2816bb1a2f39b09), [embarrassingly parallel](https://www.semanticscholar.org/paper/Branch-Train-Merge%3A-Embarrassingly-Parallel-of-Li-Gururangan/8b3a67c7e5289eed160d2acfd04d71cfb552c67d), and [sparse](https://www.semanticscholar.org/paper/Scaling-Expert-Language-Models-with-Unsupervised-Gururangan-Li/464770587aece80cc9e3451050058e30c2aa6666). Much of my research investigates language variation in large unlabeled datasets, and how the composition of training data affects the overall behavior of language models. I strongly believe that being careful about our data will lead to stronger and more reliable language technologies.
+| [Time is Encoded in the Weights of Finetuned Language Models](https://arxiv.org/abs/2303.14177)<br><sub>Kai Nylund, **Suchin Gururangan**, Noah A. Smith</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/KaiNylund/lm-weights-encode-time)</span></sub> |
+| [SILO Language Models: Isolating Legal Risk in a Nonparametric Datastore](https://arxiv.org/abs/2303.14177)<br><sub>Sewon Min<sup>\*</sup>, **Suchin Gururangan<sup>\*</sup>**, Eric Wallace, Hannaneh Hajishirzi, Noah A. Smith, Luke Zettlemoyer</sub><br><sub><sup>\*</sup>Equal Contribution</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/kernelmachine/silo-lm)</span></sub> |
+| [Scaling Expert Language Models with Unsupervised Domain Discovery](https://arxiv.org/abs/2303.14177)<br><sub>**Suchin Gururangan<sup>\*</sup>**, Margaret Li<sup>\*</sup>, Mike Lewis, Weijia Shi, Tim Althoff, Noah A. Smith, Luke Zettlemoyer</sub><br><sub><sup>\*</sup>Equal Contribution</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/kernelmachine/cbtm)</span></sub> |
+| [Editing Models with Task Arithmetic](https://arxiv.org/abs/2212.04089)<br><sub>Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, **Suchin Gururangan**, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi</sub><br><sub>*ICLR 2023*</sub>| <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/mlfoundations/task_vectors)</span></sub> |
+
+#### 2022
+-----------
+
+| [lo-fi: distributed fine-tuning without communication](https://arxiv.org/abs/2210.11948)<br><sub>Mitchell Wortsman, **Suchin Gururangan**, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos<br></sub><sub>*TMLR*</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/kernelmachine/lofi)</span></sub> |
+| [M2D2: A Massively Multi-Domain Language Modeling Dataset](https://arxiv.org/abs/2210.07370)<br><sub>Machel Reid, Victor Zhong, **Suchin Gururangan**, Luke Zettlemoyer </sub> <br><sub>*EMNLP 2022*</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/machelreid/m2d2)</span></sub> |
+| [Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection](https://arxiv.org/abs/2201.10474)<br><sub>**Suchin Gururangan**, Dallas Card, Sarah K. Dreier, Emily K. Gade, Leroy Wang, Blarry Wang,Luke Zettlemoyer, and Noah A. Smith</sub><br><sub>*EMNLP 2022*</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/kernelmachine/quality-filter)</span></sub> |
+| [Nearest Neighbor Zero-Shot Inference](https://suchin.io/assets/knnprompt.pdf)<br><sub>Weijia Shi, Julian Michael, **Suchin Gururangan**,  and Luke Zettlemoyer</sub><br><sub>*EMNLP 2022*</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/swj0419/kNN_prompt)</span></sub> |
+| [Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models](https://arxiv.org/abs/2208.03306)<br><sub>Margaret Li<sup>\*</sup>, **Suchin Gururangan<sup>\*</sup>**, Tim Dettmers, Mike Lewis, Noah A. Smith, and Luke Zettlemoyer</sub><br><sub><sup>\*</sup>Equal Contribution</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/hadasah/btm)</span></sub> |
+| [Time Waits for No One! Analysis and Challenges of Temporal Misalignment](https://arxiv.org/abs/2111.07408)<br><sub>Kelvin Luu, Daniel Khashabi, **Suchin Gururangan**, Karishma Mandyam, and Noah A. Smith</sub><br><sub>*NAACL 2022*</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/Kel-Lu/time-waits-for-no-one)</span></sub> |
+| [DEMix Layers: Disentangling Domains for Modular Language Modeling](https://arxiv.org/abs/2108.05036)<br><sub>**Suchin Gururangan**, Mike Lewis, Ari Holtzman, Noah A. Smith, and Luke Zettlemoyer</sub><br><sub>*NAACL 2022*</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/kernelmachine/demix)</span></sub> |
 
 
-I have co-authored papers that were cited as "outstanding" and "honorable mention for best paper" at [ACL 2020](https://aclanthology.org/2020.acl-main.740/) and [ACL 2021](https://aclanthology.org/2021.acl-long.565/).
+
+####  2021
+-----------
+
+| [All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text](https://aclanthology.org/2021.acl-long.565/)<br><sub>Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, **Suchin Gururangan**, and Noah A. Smith</sub><br><sub>*ACL 2021*</sub><br>✨<sub>**Outstanding Paper Award**</sub>✨| |
+
+| [Expected Validation Performance and Estimation of a Random Variable's Maximum](https://arxiv.org/pdf/2110.00613.pdf)<br><sub>Jesse Dodge, **Suchin Gururangan**, Roy Schwartz, Dallas Card, and Noah A. Smith</sub> | |
+
+| [Detoxifying Language Models Risks Marginalizing Minority Voices](https://aclanthology.org/2021.naacl-main.190/)<br><sub>Albert Xu, Eshaan Pathak, Eric Wallace, **Suchin Gururangan**, Maarten Sap, and Dan Klein</sub><br><sub>*NAACL 2021*</sub>| |
+
+####  2020
+-----------
+
+| [RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models](https://aclanthology.org/2020.findings-emnlp.301/)<br><sub> Sam Gehman, **Suchin Gururangan**, Maarten Sap, Yejin Choi, and Noah A. Smith</sub><br><sub>*EMNLP Findings 2020*</sub>| <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/allenai/real-toxicity-prompts)</span></sub> |
+| [Don't Stop Pretraining: Adapt Language Models to Domains and Tasks](https://aclanthology.org/2020.acl-main.740/)<br><sub>**Suchin Gururangan**, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and Noah A. Smith </sub><br><sub>*ACL 2020*</sub><br>✨<sub>**Outstanding Paper Award**</sub>✨| <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/allenai/dont-stop-pretraining)</span></sub> |
 
 
-Check out my [publications](https://suchin.io/publications/) to learn more.
+#### 2019
+-----------
 
-## Announcements
-* Oct 2023: Invited talk at SambaNova Systems
-* Sept 2023: Invited talk at Google Brain on SILO language models.
-* Aug 2023: Invited talk at NYU
-* Aug 2023: ["SILO Language Models"](https://arxiv.org/abs/2308.04430) is live.
-* Aug 2023: Invited talk at KAIST
-* Aug 2023: Invited talk at Cornell University
-* June 2023: Invited talk at Bocconi University
-* May 2023: Invited talk at Samaya AI
-* May 2023: Invited talk at Google Brain
-* May 2023: Invited talk at Stanford NLP
-* Apr 2023: Invited talk at USC ISI
-* Mar 2023: ["Scaling Expert Language Models with Unsupervised Domain Discovery"](https://arxiv.org/abs/2303.14177) is live.
-* Mar 2023: Passed my Generals Examination!
-* Jan 2023: ["Editing Models with Task Arithmetic"](https://arxiv.org/abs/2212.04089) was accepted to ICLR 2023.
-* Oct 2022: Our new paper, ["lo-fi: distributed fine-tuning without communication"](https://arxiv.org/abs/2210.11948) is live!
-* Oct 2022: Three papers ("Whose Language Counts as High Quality", "M2D2", and "Nearest Neighbor Zero-Shot Inference") accepted to EMNLP 2022!
-* Sept 2022: Talk at USC
-* Aug 2022: Talk at Mosaic ML, on "Branch-Train-Merge"
-* Aug 2022: Our new paper ["Branch-Train-Merge"](https://arxiv.org/abs/2208.03306) just dropped!
-* June 2022: Our new paper ["Nearest Neighbor Zero-Shot Inference"](https://suchin.io/assets/knnprompt.pdf) is live!
-* March 2022: Two papers ("DEMix" and "Time Waits for No One!") accepted to NAACL 2022!
-* March 2022: Talk at IBM Research Zurich.
-* April 2022: I'll be giving a guest lecture in the **Data Processing + Values** course at UW on our [quality filtering](https://arxiv.org/abs/2201.10474) paper.
-* January 2022: Our new preprint, ["Whose Language Counts As High Quality?"](https://arxiv.org/abs/2201.10474), just dropped!
+| [Variational Pretraining for Semi-supervised Text Classification](https://aclanthology.org/P19-1590/)<br><sub>**Suchin Gururangan**,Tam Dang, Dallas Card, and Noah A. Smith</sub><br><sub>*ACL 2019*</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/allenai/vampire)</span></sub> |
+
+| [Show Your Work: Improved Reporting of Experimental Results](https://aclanthology.org/D19-1224/)<br><sub>Jesse Dodge, **Suchin Gururangan**, Roy Schwartz, Dallas Card, and Noah A. Smith</sub><br><sub>*EMNLP 2019*</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/allenai/allentune)</span></sub> |
+
+| [Emergent coordination underlying learning to reach to grasp with a brain-machine interface](https://pubmed.ncbi.nlm.nih.gov/29357477)<br><sub> with many authors 🙂</sub><br><sub>*Journal of Neurophysiology*</sub> | |
+
+
+#### 2018
+-----------
+
+| [Annotation Artifacts in Natural Language Inference Data](https://aclanthology.org/N18-2017/)<br><sub>**Suchin Gururangan<sup>\*</sup>**, Swabha Swayamdipta<sup>\*</sup>, Omer Levy, Roy Schwartz, Samuel Bowman, and Noah A. Smith</sub> <br><sub><sup>*</sup>Equal contribution</sub><br><sub>*NAACL 2018*</sub> | |
+
+
+#### 2014
+-----------
+
+| [Analysis of Graph Invariants in Functional Neocortical Circuitry Reveals Generalized Features Common to Three Areas of Sensory Cortex](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003710)<br><sub>**Suchin Gururangan**, Alex Sadovsky and Jason Maclean</sub><br><sub>*Plos Compbio 2014*</sub> | |
+

@@ -14,17 +14,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Suchin Gururangan
-email: sg01@cs.washington.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Suchin Gururangan, an NLP researcher
-twitter_username: ssgrn
-github_username: kernelmachine
-minimal_mistakes_skin: default
-search: false
+logo: /assets/images/bio_photo.png
+description: I am a PhD candidate at the University of Washington. I do research in natural language processing and machine learning. <br><br> [📥 Email](mailto:sg01@cs.washington.edu) <br> [🎓 Google Scholar](https://scholar.google.com/citations?user=CJIKhNIAAAAJ&hl=en&oi=ao)<br>  [📚 Semantic Scholar](https://www.semanticscholar.org/author/Suchin-Gururangan/40895369)<br> [𝕏 Twitter](https://twitter.com/ssgrn)<br>[✍🏾 Blog](https://suchin.io/blog)
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+author: Suchin Gururangan
+
+
+# title: Suchin Gururangan
+# logo: /assets/images/bio_photo.png
+# email: sg01@cs.washington.edu
+# description: I am a PhD candidate at the University of Washington. I do research on the data and training of large language models.
+# twitter_username: ssgrn
+# github_username: kernelmachine
+# minimal_mistakes_skin: default
+# search: false
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: kernelmachine/minimal
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -85,7 +94,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: default
       author_profile: true
       read_time: true
       comments: false
@@ -96,7 +105,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: default
       author_profile: true
 
 category_archive:

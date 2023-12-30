@@ -2,6 +2,9 @@
 title: "PhD Fellowship Proposal Advice"
 excerpt_separator: "<!--more-->"
 layout: post
+permalink: blog/fellowship_statement
+date: 2023/04/27
+author: Suchin Gururangan
 ---
 
 A few years ago I published a [blog post](https://suchin.io/personal-statement-advice/) on writing graduate school personal statements which I think lots of folks found useful, so here is the next edition: tips for writing a successful PhD fellowship proposal!

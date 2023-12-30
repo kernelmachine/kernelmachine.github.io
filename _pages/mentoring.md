@@ -1,6 +1,6 @@
 ---
 title: "Mentoring"
-layout: single
+layout: default
 permalink: /mentoring/
 ---
 

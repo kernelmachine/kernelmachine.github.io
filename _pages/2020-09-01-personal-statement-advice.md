@@ -2,6 +2,9 @@
 title: "Personal Statement Advice"
 excerpt_separator: "<!--more-->"
 layout: post
+permalink: blog/personal_statement
+date: 2020/09/01
+author: Suchin Gururangan
 ---
 
 I’m writing this post because I was inspired by <a href="https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/">Nelson Liu</a>, who made his personal research statement public. The information needed to get into the ivory tower is not that accessible, and it’s awesome that there are people out there trying to change this. This is my attempt to follow in their footsteps! Hope this is useful to anyone applying to PhD programs in the USA.

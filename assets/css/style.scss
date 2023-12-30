@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+a:hover {
+  text-decoration:underline;
+  font-weight: normal;
+}
+
+footer {
+    display: none;
+}
+
+p.view {
+    display: none;
+}
