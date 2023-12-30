@@ -40,7 +40,7 @@ permalink: /
 -----------
 
 | [RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models](https://arxiv.org/abs/2009.11462)<br><sub> Sam Gehman, **Suchin Gururangan**, Maarten Sap, Yejin Choi, and Noah A. Smith</sub><br><sub>*EMNLP Findings 2020*</sub>| <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/allenai/real-toxicity-prompts)</span></sub> |
-| [Don't Stop Pretraining: Adapt Language Models to Domains and Tasks](https://arxiv.org/abs/2004.10964)<br><sub>**Suchin Gururangan**, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and Noah A. Smith </sub><br><sub>*ACL 2020*</sub><br>✨<sub>**Outstanding Paper Award**</sub>✨| <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/allenai/dont-stop-pretraining)</span></sub> |
+| [Don't Stop Pretraining: Adapt Language Models to Domains and Tasks](https://arxiv.org/abs/2004.10964)<br><sub>**Suchin Gururangan**, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and Noah A. Smith </sub><br><sub>*ACL 2020*</sub><br>✨<sub>**Honorable Mention for Best Overall Paper**</sub>✨| <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/allenai/dont-stop-pretraining)</span></sub> |
 
 
 #### 2019
