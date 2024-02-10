@@ -9,6 +9,7 @@ permalink: /
 #### 2024
 -----------
 
+| [Breaking the Curse of Multilinguality with Cross-lingual Expert Language Models ]([https://arxiv.org/abs/2401.06408](https://arxiv.org/abs/2401.10440))<br><sub>Terra Blevins, Tomasz Limisiewicz, **Suchin Gururangan**, Margaret Li, Hila Gonen, Noah A. Smith, Luke Zettlemoyer</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;"></span></sub> |
 | [AboutMe: Using Self-Descriptions in Webpages to Document the Effects of English Pretraining Data Filters](https://arxiv.org/abs/2401.06408)<br><sub>Li Lucy, **Suchin Gururangan**, Luca Soldaini, Emma Strubell, David Bamman, Lauren Klein, Jesse Dodge</sub> | <sub><span style="border: 0.5px solid lightgrey; padding: 5px; box-shadow:2px 2px 2px grey; border-radius: 5px; margin-left: 10px; display: inline-block;">[code](https://github.com/lucy3/whos_filtered)</span></sub> |
 
 #### 2023
