@@ -1,6 +1,5 @@
 ---
 title: "Personal Statement Advice"
-excerpt_separator: "<!--more-->"
 layout: post
 ---
 
