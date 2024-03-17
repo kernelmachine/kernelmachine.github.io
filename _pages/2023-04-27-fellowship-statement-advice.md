@@ -1,6 +1,5 @@
 ---
 title: "PhD Fellowship Proposal Advice"
-excerpt_separator: "<!--more-->"
 layout: post
 permalink: blog/fellowship_statement
 date: 2023/04/27
