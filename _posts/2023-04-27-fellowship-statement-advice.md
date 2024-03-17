@@ -1,6 +1,5 @@
 ---
 title: "PhD Fellowship Proposal Advice"
-excerpt_separator: "<!--more-->"
 layout: post
 ---
 
