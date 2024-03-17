@@ -1,6 +1,5 @@
 ---
 title: "Personal Statement Advice"
-excerpt_separator: "<!--more-->"
 layout: post
 permalink: blog/personal_statement
 date: 2020/09/01
