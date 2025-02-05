@@ -9,7 +9,7 @@ permalink: /
 #### 2025
 -----------
 
-| [BTS: Harmonizing Specialized Experts into a Generalist LLM](https://arxiv.org/abs/2411.16646)<br><sub>Qizhen Zhang, Prajjwal Bhargava, Chloe Bi, Chris X. Cai, Jakob Foerster, Jeremy Fu, Punit Singh Koura, Ruan Silva, Sheng Shen, Emily Dinan*, Suchin Gururangan*, Mike Lewis*</sub><br><sub><sup>\*</sup>Joint Last Author</sub> | |
+| [BTS: Harmonizing Specialized Experts into a Generalist LLM](https://arxiv.org/abs/2502.00075)<br><sub>Qizhen Zhang, Prajjwal Bhargava, Chloe Bi, Chris X. Cai, Jakob Foerster, Jeremy Fu, Punit Singh Koura, Ruan Silva, Sheng Shen, Emily Dinan*, **Suchin Gururangan***, Mike Lewis*</sub><br><sub><sup>\*</sup>Joint Last Author</sub> | |
 
 #### 2024
 -----------
