@@ -24,7 +24,7 @@ author: Suchin Gururangan
 
 # title: Suchin Gururangan
 # logo: /assets/images/bio_photo.png
-# email: suching@meta.com
+# email: sg@anthropic.com
 # description: I am a PhD candidate at the University of Washington. I do research on the data and training of large language models.
 # twitter_username: ssgrn
 # github_username: kernelmachine
@@ -81,7 +81,7 @@ author:
       url: "https://github.com/kernelmachine"
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:suching@meta.com"
+      url: "mailto:sg@anthropic.com"
     - label: "Semantic Scholar"
       icon: "fas fa-book-open"
       url: "https://www.semanticscholar.org/author/Suchin-Gururangan/40895369"
