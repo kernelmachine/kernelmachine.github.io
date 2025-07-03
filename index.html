@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sachin Gururangan</title>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
         body {
             font-family: monospace;
             line-height: 1.6;
@@ -58,248 +62,625 @@
             margin-bottom: 15px;
         }
         
+        
         .authors {
             color: #666;
+        }
+        
+        .paper-description {
+            margin-top: 5px;
+        }
+        
+        .paper-description summary {
+            cursor: pointer;
+            color: #666;
+            font-size: 14px;
+            list-style: none;
+            display: inline-block;
+        }
+        
+        .paper-description summary::-webkit-details-marker {
+            display: none;
+        }
+        
+        .paper-description summary::after {
+            content: "[show abstract]";
+        }
+        
+        .paper-description[open] summary::after {
+            content: "[hide abstract]";
+        }
+        
+        .paper-description .abstract {
+            margin-top: 5px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-left: 3px solid #0066cc;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #555;
+        }
+        
+        .floating-nav {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 14px;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+        
+        .floating-nav.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .floating-nav .nav-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .floating-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .floating-nav li {
+            margin: 5px 0;
+        }
+        
+        .floating-nav li.sub-nav {
+            margin-left: 15px;
+            font-size: 13px;
+        }
+        
+        .floating-nav a {
+            color: #0066cc;
+            text-decoration: none;
+            display: block;
+            padding: 2px 5px;
+            border-radius: 3px;
+            transition: background-color 0.2s;
+        }
+        
+        .floating-nav a:hover {
+            background-color: #e8e8e8;
+        }
+        
+        @media (max-width: 1200px) {
+            .floating-nav {
+                display: none;
+            }
+        }
+        
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+                font-size: 14px;
+            }
+            
+            h1 {
+                font-size: 24px;
+                margin-bottom: 5px;
+            }
+            
+            h2 {
+                font-size: 20px;
+                margin-top: 30px;
+            }
+            
+            h3 {
+                font-size: 18px;
+                margin-top: 25px;
+            }
+            
+            img {
+                max-width: 150px;
+                margin-bottom: 15px;
+            }
+            
+            .center {
+                font-size: 13px;
+                margin-bottom: 25px;
+                line-height: 1.8;
+            }
+            
+            .center a {
+                display: inline-block;
+                margin: 2px 0;
+            }
+            
+            .bio {
+                margin-bottom: 30px;
+                font-size: 14px;
+            }
+            
+            .paper {
+                margin-bottom: 20px;
+            }
+            
+            
+            details summary::after {
+                font-size: 12px;
+            }
+            
+            .authors, .author-list {
+                font-size: 12px;
+            }
+        }
+        
+        /* Small mobile styles */
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            .center {
+                font-size: 12px;
+            }
+            
+            /* Hide separators on very small screens */
+            .separator {
+                display: none;
+            }
+            
+            /* Stack links with some spacing */
+            .center a {
+                display: block;
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
 <body>
+    <div id="top"></div>
     <img src="assets/images/bio_photo.png" alt="Sachin Gururangan">
     
     <h1>Sachin Gururangan</h1>
     
     <div class="center">
-        <a href="https://twitter.com/ssgrn">Twitter</a> |
-        <a href="https://github.com/kernelmachine">GitHub</a> |
-        <a href="mailto:sg@anthropic.com">Email</a> |
-        <a href="https://www.semanticscholar.org/author/Sachin-Gururangan/40895369">Semantic Scholar</a> |
-        <a href="https://scholar.google.com/citations?user=CJIKhNIAAAAJ&hl=en">Google Scholar</a>
+        <a href="https://twitter.com/ssgrn">𝕏 Twitter</a>
+        <span class="separator">|</span>
+        <a href="https://github.com/kernelmachine">💻 GitHub</a>
+        <span class="separator">|</span>
+        <a href="mailto:sg@anthropic.com">📧 Email</a>
+        <span class="separator">|</span>
+        <a href="https://www.semanticscholar.org/author/Sachin-Gururangan/40895369">📚 Semantic Scholar</a>
+        <span class="separator">|</span>
+        <a href="https://scholar.google.com/citations?user=CJIKhNIAAAAJ&hl=en">🎓 Google Scholar</a>
     </div>
     
     <div class="bio">
         <p>I am a member of the technical staff at <a href="https://anthropic.com/">Anthropic</a>. Previously, I was a senior research scientist on the <a href="https://llama.meta.com/">Llama</a> team at Meta GenAI. I received my PhD in Computer Science in 2024 at the <a href="https://nlp.washington.edu/">University of Washington</a>. During my graduate studies, I was supported by the <a href="https://www.bloomberg.com/company/stories/introducing-the-fifth-cohort-of-bloomberg-data-science-ph-d-fellows-2022-2023/">2022 Bloomberg PhD Fellowship</a>, was a visiting researcher at <a href="https://ai.meta.com/">FAIR</a>, and was a predoctoral resident at <a href="https://allenai.org/">AI2</a>.</p>
     </div>
 
-    <h2>Blog Posts</h2>
+    <h2 id="blog">Blog Posts</h2>
 
     <div class="paper">
         <a href="blog/2023-fellowship-advice.html">PhD Fellowship Proposal Advice</a><br>
         <span class="authors">April 27, 2023</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">A guide for writing successful PhD fellowship proposals, covering strategy, writing tips, and common pitfalls to avoid based on my experience with the Bloomberg PhD Fellowship.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="blog/2020-personal-statement-advice.html">Personal Statement Advice</a><br>
         <span class="authors">September 1, 2020</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">Advice for writing compelling personal statements for graduate school applications, including structure, content, and how to effectively communicate your research interests and experiences.</div>
+            </details>
     </div>
 
-    <h2>Publications</h2>
+    <h2 id="publications">Publications</h2>
 
-    <h3>2025</h3>
+    <h3 id="pub-2025">2025</h3>
     <div class="paper">
         <a href="https://arxiv.org/abs/2502.00075">BTS: Harmonizing Specialized Experts into a Generalist LLM</a><br>
-        <span class="authors">Qizhen Zhang, Prajjwal Bhargava, Chloe Bi, Chris X. Cai, Jakob Foerster, Jeremy Fu, Punit Singh Koura, Ruan Silva, Sheng Shen, Emily Dinan*, <strong>Sachin Gururangan</strong>*, Mike Lewis*</span><br>
+        <span class="authors">Qizhen Zhang, Prajjwal Bhargava, Chloe Bi, Chris X. Cai, Jakob Foerster, Jeremy Fu, Punit Singh Koura, Ruan Silva, Sheng Shen, Emily Dinan*, <strong>Sachin Gururangan</strong>*, Mike Lewis*</span>
         <span class="authors">*Joint Last Author</span>
-    </div>
+        <details class="paper-description">
+            <summary></summary>
+            <div class="abstract">We introduce Branch-Train-Sync (BTS), a novel training method for large language models (LLMs) that asynchronously trains multiple expert models on specialized domains and periodically synchronizes them into a unified generalist model. This approach addresses the challenge of training LLMs that excel across diverse domains while maintaining computational efficiency.</div>
+        </details>
 
-    <h3>2024</h3>
+    <h3 id="pub-2024">2024</h3>
     <div class="paper">
         <a href="https://arxiv.org/abs/2411.16646">Self-Generated Critiques Boost Reward Modeling for Language Models</a><br>
         <span class="authors">Yue Yu, Zhengxing Chen, Aston Zhang, Liang Tan, Chenguang Zhu, Richard Yuanzhe Pang, Yundi Qian, Xuewei Wang, <strong>Sachin Gururangan</strong>, Chao Zhang, Melanie Kambadur, Dhruv Mahajan, Rui Hou</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We propose a novel approach to improve reward modeling for language models by training them to generate their own critiques. By augmenting the training data with self-generated critiques and their evaluations, we significantly enhance the reward model's ability to distinguish between high and low-quality responses.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://ai.meta.com/research/publications/the-llama-3-herd-of-models/">The Llama 3 Herd of Models</a><br>
-        <span class="authors">Llama Team</span> 
-        [<a href="https://github.com/meta-llama/llama-models">code</a>]
+        <span class="authors">Llama Team</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">This paper introduces Llama 3, a new generation of state-of-the-art open large language models. We describe the design principles, training methodology, and comprehensive evaluation of models ranging from 8B to 405B parameters, demonstrating strong performance across diverse tasks.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2406.11794">DataComp-LM: In search of the next generation of training sets for language models</a><br>
-        <span class="authors">Jeffrey Li, Alex Fang, Georgios Smyrnis, Maor Ivgi, Matt Jordan, Samir Gadre, Hritik Bansal, Etash Guha, Sedrick Keh, Kushal Arora, Saurabh Garg, Rui Xin, Niklas Muennighoff, Reinhard Heckel, Jean Mercat, Mayee Chen, <strong>Sachin Gururangan</strong>, Mitchell Wortsman, Alon Albalak, Yonatan Bitton, Marianna Nezhurina, Amro Abbas, Cheng-Yu Hsieh, Dhruba Ghosh, Josh Gardner, Maciej Kilian, Hanlin Zhang, Rulin Shao, Sarah Pratt, Sunny Sanyal, Gabriel Ilharco, Giannis Daras, Kalyani Marathe, Aaron Gokaslan, Jieyu Zhang, Khyathi Chandu, Thao Nguyen, Igor Vasiljevic, Sham Kakade, Shuran Song, Sujay Sanghavi, Fartash Faghri, Sewoong Oh, Luke Zettlemoyer, Kyle Lo, Alaaeldin El-Nouby, Hadi Pouransari, Alexander Toshev, Stephanie Wang, Dirk Groeneveld, Luca Soldaini, Pang Wei Koh, Jenia Jitsev, Thomas Kollar, Alexandros G. Dimakis, Yair Carmon, Achal Dave, Ludwig Schmidt, Vaishaal Shankar</span> 
-        [<a href="https://www.datacomp.ai/dclm/">code</a>]
+
+        <span class="authors">Jeffrey Li, Alex Fang, Georgios Smyrnis, Maor Ivgi, Matt Jordan, Samir Gadre, Hritik Bansal, Etash Guha, Sedrick Keh, Kushal Arora, Saurabh Garg, Rui Xin, Niklas Muennighoff, Reinhard Heckel, Jean Mercat, Mayee Chen, <strong>Sachin Gururangan</strong>, Mitchell Wortsman, Alon Albalak, Yonatan Bitton, Marianna Nezhurina, Amro Abbas, Cheng-Yu Hsieh, Dhruba Ghosh, Josh Gardner, Maciej Kilian, Hanlin Zhang, Rulin Shao, Sarah Pratt, Sunny Sanyal, Gabriel Ilharco, Giannis Daras, Kalyani Marathe, Aaron Gokaslan, Jieyu Zhang, Khyathi Chandu, Thao Nguyen, Igor Vasiljevic, Sham Kakade, Shuran Song, Sujay Sanghavi, Fartash Faghri, Sewoong Oh, Luke Zettlemoyer, Kyle Lo, Alaaeldin El-Nouby, Hadi Pouransari, Alexander Toshev, Stephanie Wang, Dirk Groeneveld, Luca Soldaini, Pang Wei Koh, Jenia Jitsev, Thomas Kollar, Alexandros G. Dimakis, Yair Carmon, Achal Dave, Ludwig Schmidt, Vaishaal Shankar</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">DataComp-LM is a benchmark and competition for improving language model training datasets. We provide a standardized framework for dataset experiments, enabling controlled comparisons of data curation strategies. Our baseline experiments reveal actionable insights for improving pretraining data quality.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2403.08540">Language models scale reliably with over-training and on downstream tasks</a><br>
-        <span class="authors">Samir Yitzhak Gadre, Georgios Smyrnis, Vaishaal Shankar, <strong>Sachin Gururangan</strong>, Mitchell Wortsman, Rulin Shao, Jean Mercat, Alex Fang, Jeffrey Li, Sedrick Keh, Rui Xin, Marianna Nezhurina, Igor Vasiljevic, Jenia Jitsev, Alexandros G. Dimakis, Gabriel Ilharco, Shuran Song, Thomas Kollar, Yair Carmon, Achal Dave, Reinhard Heckel, Niklas Muennighoff, Ludwig Schmidt</span> 
-        [<a href="https://github.com/mlfoundations/scaling">code</a>]
+
+        <span class="authors">Samir Yitzhak Gadre, Georgios Smyrnis, Vaishaal Shankar, <strong>Sachin Gururangan</strong>, Mitchell Wortsman, Rulin Shao, Jean Mercat, Alex Fang, Jeffrey Li, Sedrick Keh, Rui Xin, Marianna Nezhurina, Igor Vasiljevic, Jenia Jitsev, Alexandros G. Dimakis, Gabriel Ilharco, Shuran Song, Thomas Kollar, Yair Carmon, Achal Dave, Reinhard Heckel, Niklas Muennighoff, Ludwig Schmidt</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We study the scaling behavior of language models when trained beyond the compute-optimal point. Our experiments show that over-trained models follow predictable scaling laws and that downstream task performance can be reliably predicted from pretraining loss, enabling better resource allocation decisions.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2402.04333">LESS: Selecting Influential Data for Targeted Instruction Tuning</a><br>
-        <span class="authors">Mengzhou Xia, Sadhika Malladi, <strong>Sachin Gururangan</strong>, Sanjeev Arora, Danqi Chen</span> 
-        [<a href="https://github.com/princeton-nlp/LESS">code</a>]
+
+        <span class="authors">Mengzhou Xia, Sadhika Malladi, <strong>Sachin Gururangan</strong>, Sanjeev Arora, Danqi Chen</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">LESS is a data selection method that identifies the most influential training examples for instruction tuning. By selecting only 5% of the data that most improves performance on a target task, LESS achieves comparable or better performance than training on the full dataset while being computationally efficient.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2401.10440">Breaking the Curse of Multilinguality with Cross-lingual Expert Language Models</a><br>
         <span class="authors">Terra Blevins, Tomasz Limisiewicz, <strong>Sachin Gururangan</strong>, Margaret Li, Hila Gonen, Noah A. Smith, Luke Zettlemoyer</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We propose cross-lingual expert language models to overcome the curse of multilinguality. By training separate experts for different languages and sharing parameters strategically, we achieve better performance than multilingual models while maintaining cross-lingual capabilities.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2401.06408">AboutMe: Using Self-Descriptions in Webpages to Document the Effects of English Pretraining Data Filters</a><br>
-        <span class="authors">Li Lucy, <strong>Sachin Gururangan</strong>, Luca Soldaini, Emma Strubell, David Bamman, Lauren Klein, Jesse Dodge</span> 
-        [<a href="https://github.com/lucy3/whos_filtered">code</a>]
+
+        <span class="authors">Li Lucy, <strong>Sachin Gururangan</strong>, Luca Soldaini, Emma Strubell, David Bamman, Lauren Klein, Jesse Dodge</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We analyze how common data filters affect different demographic groups by examining self-descriptions in web pages. Our findings reveal that quality filters disproportionately remove content from and about marginalized communities, raising concerns about representation in training data.</div>
+            </details>
     </div>
 
-    <h3>2023</h3>
+    <h3 id="pub-2023">2023</h3>
     <div class="paper">
         <a href="https://laion.ai/blog/open-lm/">OpenLM</a><br>
-        <span class="authors"><strong>Sachin Gururangan*</strong>, Mitchell Wortsman*, Samir Yitzhak Gadre, Achal Dave, Maciej Kilian, Weijia Shi, Jean Mercat, Georgios Smyrnis, Gabriel Ilharco, Matt Jordan, Reinhard Heckel, Alex Dimakis, Ali Farhadi, Vaishaal Shankar, Ludwig Schmidt</span><br>
-        <span class="authors">*Equal Contribution</span> 
-        [<a href="https://github.com/mlfoundations/open_lm">code</a>]
+
+        <span class="authors"><strong>Sachin Gururangan*</strong>, Mitchell Wortsman*, Samir Yitzhak Gadre, Achal Dave, Maciej Kilian, Weijia Shi, Jean Mercat, Georgios Smyrnis, Gabriel Ilharco, Matt Jordan, Reinhard Heckel, Alex Dimakis, Ali Farhadi, Vaishaal Shankar, Ludwig Schmidt</span>
+        <span class="authors">*Equal Contribution</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">OpenLM is an open-source language modeling framework designed for research. We provide efficient implementations, training recipes, and evaluation tools to enable reproducible research on language models at various scales.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2312.13401">Time is Encoded in the Weights of Finetuned Language Models</a><br>
-        <span class="authors">Kai Nylund, <strong>Sachin Gururangan</strong>, Noah A. Smith</span> 
-        [<a href="https://github.com/KaiNylund/lm-weights-encode-time">code</a>]
+
+        <span class="authors">Kai Nylund, <strong>Sachin Gururangan</strong>, Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We discover that finetuned language models encode temporal information in their weights, allowing them to be dated based on their knowledge cutoff. This finding has implications for model versioning, temporal reasoning, and understanding how models represent time.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2308.04430">SILO Language Models: Isolating Legal Risk in a Nonparametric Datastore</a><br>
-        <span class="authors">Sewon Min*, <strong>Sachin Gururangan*</strong>, Eric Wallace, Hannaneh Hajishirzi, Noah A. Smith, Luke Zettlemoyer</span><br>
-        <span class="authors">*Equal Contribution</span><br>
         <span class="authors"><em>ICLR 2024, RegML 2024</em></span><br>
-        <span class="authors"><strong>Outstanding Paper Award at RegML 2024 Workshop</strong></span> 
-        [<a href="https://github.com/kernelmachine/silo-lm">code</a>]
+        <span class="authors"><strong>⭐ Outstanding Paper Award at RegML 2024 Workshop ⭐</strong></span>
+
+        <span class="authors">Sewon Min*, <strong>Sachin Gururangan*</strong>, Eric Wallace, Hannaneh Hajishirzi, Noah A. Smith, Luke Zettlemoyer</span>
+        <span class="authors">*Equal Contribution</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">SILO is a new language model architecture that manages legal risk by separating the parametric model from a nonparametric datastore. The model is trained only on permissively licensed data, while the datastore can include more diverse content, enabling effective performance while maintaining clear data provenance.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2303.14177">Scaling Expert Language Models with Unsupervised Domain Discovery</a><br>
-        <span class="authors"><strong>Sachin Gururangan*</strong>, Margaret Li*, Mike Lewis, Weijia Shi, Tim Althoff, Noah A. Smith, Luke Zettlemoyer</span><br>
-        <span class="authors">*Equal Contribution</span><br>
-        <span class="authors"><em>JMLR 2024</em></span> 
-        [<a href="https://github.com/kernelmachine/cbtm">code</a>]
+        <span class="authors"><em>JMLR 2024</em></span>
+
+        <span class="authors"><strong>Sachin Gururangan*</strong>, Margaret Li*, Mike Lewis, Weijia Shi, Tim Althoff, Noah A. Smith, Luke Zettlemoyer</span>
+        <span class="authors">*Equal Contribution</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We present a method for automatically discovering domains in large text corpora and training specialized expert models for each domain. Our approach uses unsupervised clustering to identify coherent domains, then trains experts that can be efficiently composed at inference time to handle diverse inputs.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2212.04089">Editing Models with Task Arithmetic</a><br>
-        <span class="authors">Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, <strong>Sachin Gururangan</strong>, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi</span><br>
-        <span class="authors"><em>ICLR 2023</em></span> 
-        [<a href="https://github.com/mlfoundations/task_vectors">code</a>]
+        <span class="authors"><em>ICLR 2023</em></span>
+
+        <span class="authors">Gabriel Ilharco, Marco Tulio Riberio, Mitchell Wortsman, <strong>Sachin Gururangan</strong>, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We introduce task arithmetic, a simple method for editing models by adding and subtracting task-specific weight updates. This enables model capabilities to be combined, removed, or modified through arithmetic operations on weight vectors.</div>
+            </details>
     </div>
 
-    <h3>2022</h3>
+    <h3 id="pub-2022">2022</h3>
     <div class="paper">
         <a href="https://arxiv.org/abs/2210.11948">lo-fi: distributed fine-tuning without communication</a><br>
-        <span class="authors">Mitchell Wortsman, <strong>Sachin Gururangan</strong>, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</span><br>
-        <span class="authors"><em>TMLR</em></span> 
-        [<a href="https://github.com/kernelmachine/lofi">code</a>]
+        <span class="authors"><em>TMLR</em></span>
+
+        <span class="authors">Mitchell Wortsman, <strong>Sachin Gururangan</strong>, Shen Li, Ali Farhadi, Ludwig Schmidt, Michael Rabbat, Ari S. Morcos</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">lo-fi enables distributed fine-tuning of large models without communication between workers. Each worker fine-tunes independently on local data, and the resulting models are merged to create a single performant model, dramatically reducing communication costs.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2210.07370">M2D2: A Massively Multi-Domain Language Modeling Dataset</a><br>
-        <span class="authors">Machel Reid, Victor Zhong, <strong>Sachin Gururangan</strong>, Luke Zettlemoyer</span><br>
-        <span class="authors"><em>EMNLP 2022</em></span> 
-        [<a href="https://github.com/machelreid/m2d2">code</a>]
+        <span class="authors"><em>EMNLP 2022</em></span>
+
+        <span class="authors">Machel Reid, Victor Zhong, <strong>Sachin Gururangan</strong>, Luke Zettlemoyer</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">M2D2 is a massive multi-domain dataset for language modeling research, containing text from hundreds of diverse domains. This resource enables research on domain adaptation, multi-domain modeling, and understanding how language varies across different contexts.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2201.10474">Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection</a><br>
-        <span class="authors"><strong>Sachin Gururangan</strong>, Dallas Card, Sarah K. Dreier, Emily K. Gade, Leroy Wang, Blarry Wang, Luke Zettlemoyer, and Noah A. Smith</span><br>
-        <span class="authors"><em>EMNLP 2022</em></span> 
-        [<a href="https://github.com/kernelmachine/quality-filter">code</a>]
+        <span class="authors"><em>EMNLP 2022</em></span>
+
+        <span class="authors"><strong>Sachin Gururangan</strong>, Dallas Card, Sarah K. Dreier, Emily K. Gade, Leroy Wang, Blarry Wang, Luke Zettlemoyer, and Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We examine the implicit language ideologies embedded in 'quality' filters used for curating pretraining data. Our analysis reveals systematic biases against certain language varieties and populations, highlighting how data curation practices can perpetuate linguistic discrimination in language models.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2205.13792">kNN-Prompt: Nearest Neighbor Zero-Shot Inference</a><br>
-        <span class="authors">Weijia Shi, Julian Michael, <strong>Sachin Gururangan</strong>, and Luke Zettlemoyer</span><br>
-        <span class="authors"><em>EMNLP 2022</em></span> 
-        [<a href="https://github.com/swj0419/kNN_prompt">code</a>]
+        <span class="authors"><em>EMNLP 2022</em></span>
+
+        <span class="authors">Weijia Shi, Julian Michael, <strong>Sachin Gururangan</strong>, and Luke Zettlemoyer</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">kNN-Prompt enables zero-shot inference by retrieving nearest neighbors from a prompt datastore. This approach improves performance on various tasks without fine-tuning, leveraging similarity in the prompt space to make better predictions.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2208.03306">Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models</a><br>
-        <span class="authors">Margaret Li*, <strong>Sachin Gururangan*</strong>, Tim Dettmers, Mike Lewis, Noah A. Smith, and Luke Zettlemoyer</span><br>
-        <span class="authors">*Equal Contribution</span> 
-        [<a href="https://github.com/hadasah/btm">code</a>]
+
+        <span class="authors">Margaret Li*, <strong>Sachin Gururangan*</strong>, Tim Dettmers, Mike Lewis, Noah A. Smith, and Luke Zettlemoyer</span>
+        <span class="authors">*Equal Contribution</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">Branch-Train-Merge enables embarrassingly parallel training of expert language models. Multiple experts are trained independently on different data subsets, then merged to create a unified model that combines their specialized knowledge.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2111.07408">Time Waits for No One! Analysis and Challenges of Temporal Misalignment</a><br>
-        <span class="authors">Kelvin Luu, Daniel Khashabi, <strong>Sachin Gururangan</strong>, Karishma Mandyam, and Noah A. Smith</span><br>
-        <span class="authors"><em>NAACL 2022</em></span> 
-        [<a href="https://github.com/Kel-Lu/time-waits-for-no-one">code</a>]
+        <span class="authors"><em>NAACL 2022</em></span>
+
+        <span class="authors">Kelvin Luu, Daniel Khashabi, <strong>Sachin Gururangan</strong>, Karishma Mandyam, and Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We analyze temporal misalignment in NLP systems, where training and deployment data come from different time periods. Our work reveals how this misalignment affects model performance and proposes methods to detect and mitigate temporal distribution shifts.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2108.05036">DEMix Layers: Disentangling Domains for Modular Language Modeling</a><br>
-        <span class="authors"><strong>Sachin Gururangan</strong>, Mike Lewis, Ari Holtzman, Noah A. Smith, and Luke Zettlemoyer</span><br>
-        <span class="authors"><em>NAACL 2022</em></span> 
-        [<a href="https://github.com/kernelmachine/demix">code</a>]
+        <span class="authors"><em>NAACL 2022</em></span>
+
+        <span class="authors"><strong>Sachin Gururangan</strong>, Mike Lewis, Ari Holtzman, Noah A. Smith, and Luke Zettlemoyer</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">DEMix introduces modular transformer layers that learn to specialize on different domains without explicit supervision. By disentangling domain-specific and domain-general representations, DEMix enables efficient multi-domain modeling and controlled generation within specific domains.</div>
+            </details>
     </div>
 
-    <h3>2021</h3>
+    <h3 id="pub-2021">2021</h3>
     <div class="paper">
         <a href="https://arxiv.org/abs/2107.00061">All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text</a><br>
-        <span class="authors">Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, <strong>Sachin Gururangan</strong>, and Noah A. Smith</span><br>
         <span class="authors"><em>ACL 2021</em></span><br>
-        <span class="authors"><strong>Outstanding Paper Award</strong></span>
+        <span class="authors"><strong>⭐ Outstanding Paper Award ⭐</strong></span>
+        <span class="authors">Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, <strong>Sachin Gururangan</strong>, and Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We critically examine human evaluation practices for generated text, revealing systematic biases and inconsistencies. Our experiments show that human evaluators often can't distinguish human from machine text, calling into question common evaluation assumptions.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2110.00613">Expected Validation Performance and Estimation of a Random Variable's Maximum</a><br>
         <span class="authors">Jesse Dodge, <strong>Sachin Gururangan</strong>, Roy Schwartz, Dallas Card, and Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We develop statistical methods for estimating expected validation performance and the maximum of a random variable in machine learning contexts. This helps researchers better understand and report the uncertainty in their experimental results.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2104.06390">Detoxifying Language Models Risks Marginalizing Minority Voices</a><br>
-        <span class="authors">Albert Xu, Eshaan Pathak, Eric Wallace, <strong>Sachin Gururangan</strong>, Maarten Sap, and Dan Klein</span><br>
         <span class="authors"><em>NAACL 2021</em></span>
+        <span class="authors">Albert Xu, Eshaan Pathak, Eric Wallace, <strong>Sachin Gururangan</strong>, Maarten Sap, and Dan Klein</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We show that current approaches to detoxifying language models can disproportionately silence minority voices. Toxicity classifiers often mislabel minority identity mentions as toxic, leading to censorship of marginalized communities' perspectives.</div>
+            </details>
     </div>
 
-    <h3>2020</h3>
+    <h3 id="pub-2020">2020</h3>
     <div class="paper">
         <a href="https://arxiv.org/abs/2009.11462">RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models</a><br>
-        <span class="authors">Sam Gehman, <strong>Sachin Gururangan</strong>, Maarten Sap, Yejin Choi, and Noah A. Smith</span><br>
-        <span class="authors"><em>EMNLP Findings 2020</em></span> 
-        [<a href="https://github.com/allenai/real-toxicity-prompts">code</a>]
+        <span class="authors"><em>EMNLP Findings 2020</em></span>
+
+        <span class="authors">Sam Gehman, <strong>Sachin Gururangan</strong>, Maarten Sap, Yejin Choi, and Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">RealToxicityPrompts is a dataset of 100k naturally occurring prompts for evaluating toxic degeneration in language models. We systematically analyze various models and decoding strategies, revealing the pervasiveness of toxic outputs even from seemingly innocuous prompts.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/2004.10964">Don't Stop Pretraining: Adapt Language Models to Domains and Tasks</a><br>
-        <span class="authors"><strong>Sachin Gururangan</strong>, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and Noah A. Smith</span><br>
         <span class="authors"><em>ACL 2020</em></span><br>
-        <span class="authors"><strong>Honorable Mention for Best Overall Paper</strong></span> 
-        [<a href="https://github.com/allenai/dont-stop-pretraining">code</a>]
+        <span class="authors"><strong>⭐ Honorable Mention for Best Overall Paper ⭐</strong></span>
+
+        <span class="authors"><strong>Sachin Gururangan</strong>, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We show that continued pretraining on domain-specific unlabeled data (domain-adaptive pretraining) followed by task-specific pretraining (task-adaptive pretraining) leads to significant performance gains. This simple approach achieves state-of-the-art results on various tasks across biomedical, computer science, news, and review domains.</div>
+            </details>
     </div>
 
-    <h3>2019</h3>
+    <h3 id="pub-2019">2019</h3>
     <div class="paper">
         <a href="https://arxiv.org/abs/1906.02242">Variational Pretraining for Semi-supervised Text Classification</a><br>
-        <span class="authors"><strong>Sachin Gururangan</strong>, Tam Dang, Dallas Card, and Noah A. Smith</span><br>
-        <span class="authors"><em>ACL 2019</em></span> 
-        [<a href="https://github.com/allenai/vampire">code</a>]
+        <span class="authors"><em>ACL 2019</em></span>
+
+        <span class="authors"><strong>Sachin Gururangan</strong>, Tam Dang, Dallas Card, and Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We introduce VAMPIRE, a variational pretraining approach for semi-supervised text classification. By learning variational autoencoders on unlabeled data, we create better representations that improve downstream classification with limited labels.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://arxiv.org/abs/1909.03004">Show Your Work: Improved Reporting of Experimental Results</a><br>
-        <span class="authors">Jesse Dodge, <strong>Sachin Gururangan</strong>, Roy Schwartz, Dallas Card, and Noah A. Smith</span><br>
-        <span class="authors"><em>EMNLP 2019</em></span> 
-        [<a href="https://github.com/allenai/allentune">code</a>]
+        <span class="authors"><em>EMNLP 2019</em></span>
+
+        <span class="authors">Jesse Dodge, <strong>Sachin Gururangan</strong>, Roy Schwartz, Dallas Card, and Noah A. Smith</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We advocate for better reporting practices in NLP experiments, including reporting results from multiple random seeds and expected validation performance. We provide tools and recommendations to help researchers report more reliable and reproducible results.</div>
+            </details>
     </div>
 
     <div class="paper">
         <a href="https://pubmed.ncbi.nlm.nih.gov/29357477">Emergent coordination underlying learning to reach to grasp with a brain-machine interface</a><br>
-        <span class="authors">with many authors 🙂</span><br>
         <span class="authors"><em>Journal of Neurophysiology</em></span>
+        <span class="authors">with many authors 🙂</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We study how neural populations coordinate during brain-machine interface learning for reach-to-grasp tasks. Our findings reveal emergent coordination patterns that develop as subjects learn to control prosthetic devices through neural activity.</div>
+            </details>
     </div>
 
-    <h3>2018</h3>
+    <h3 id="pub-2018">2018</h3>
     <div class="paper">
         <a href="https://arxiv.org/abs/1803.02324">Annotation Artifacts in Natural Language Inference Data</a><br>
-        <span class="authors"><strong>Sachin Gururangan*</strong>, Swabha Swayamdipta*, Omer Levy, Roy Schwartz, Samuel Bowman, and Noah A. Smith</span><br>
-        <span class="authors">*Equal contribution</span><br>
         <span class="authors"><em>NAACL 2018</em></span>
+        <span class="authors"><strong>Sachin Gururangan*</strong>, Swabha Swayamdipta*, Omer Levy, Roy Schwartz, Samuel Bowman, and Noah A. Smith</span>
+        <span class="authors">*Equal contribution</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We show that natural language inference datasets contain annotation artifacts that allow models to perform well without understanding the relationship between premise and hypothesis. Models trained only on hypotheses achieve surprisingly high accuracy, revealing systematic biases that can be exploited.</div>
+            </details>
     </div>
 
-    <h3>2014</h3>
+    <h3 id="pub-2014">2014</h3>
     <div class="paper">
         <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003710">Analysis of Graph Invariants in Functional Neocortical Circuitry Reveals Generalized Features Common to Three Areas of Sensory Cortex</a><br>
-        <span class="authors"><strong>Sachin Gururangan</strong>, Alex Sadovsky and Jason Maclean</span><br>
         <span class="authors"><em>Plos Compbio 2014</em></span>
+        <span class="authors"><strong>Sachin Gururangan</strong>, Alex Sadovsky and Jason Maclean</span>
+        <details class="paper-description">
+            <summary></summary>
+            
+                <div class="abstract">We analyze graph-theoretic properties of functional neural circuits across three sensory cortical areas. Our analysis reveals common organizational principles and invariant features that characterize information processing in sensory cortex.</div>
+            </details>
     </div>
+
+    <nav class="floating-nav">
+        <div class="nav-header">Navigation</div>
+        <ul>
+            <li><a href="#top">↑ Top</a></li>
+            <li><a href="#blog">Blog Posts</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li class="sub-nav"><a href="#pub-2025">2025</a></li>
+            <li class="sub-nav"><a href="#pub-2024">2024</a></li>
+            <li class="sub-nav"><a href="#pub-2023">2023</a></li>
+            <li class="sub-nav"><a href="#pub-2022">2022</a></li>
+            <li class="sub-nav"><a href="#pub-2021">2021</a></li>
+            <li class="sub-nav"><a href="#pub-2020">2020</a></li>
+            <li class="sub-nav"><a href="#pub-2019">2019</a></li>
+            <li class="sub-nav"><a href="#pub-2018">2018</a></li>
+            <li class="sub-nav"><a href="#pub-2014">2014</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        // Show/hide floating nav based on scroll position
+        const floatingNav = document.querySelector('.floating-nav');
+        const bio = document.querySelector('.bio');
+        
+        function checkScroll() {
+            if (bio) {
+                const bioBottom = bio.getBoundingClientRect().bottom;
+                if (bioBottom < 0) {
+                    floatingNav.classList.add('visible');
+                } else {
+                    floatingNav.classList.remove('visible');
+                }
+            }
+        }
+        
+        window.addEventListener('scroll', checkScroll);
+        checkScroll(); // Check initial position
+    </script>
 
 </body>
 </html>
